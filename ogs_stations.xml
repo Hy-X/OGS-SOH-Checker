@@ -1,0 +1,1591 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>EarthScope</Source>
+  <Sender>EarthScope</Sender>
+  <Module>EarthScope WEB SERVICE: fdsnws-station | version: 1.1.58</Module>
+  <ModuleURI>https://service.earthscope.org/fdsnws/station/1/query?starttime=2026-10-03T18%3A32%3A16.678190&amp;network=OK%2CO2&amp;level=station</ModuleURI>
+  <Created>2026-10-03T18:32:16.780100Z</Created>
+  <Network code="O2" startDate="2018-01-01T00:00:00.000000Z" restrictedStatus="open">
+    <Description>Oklahoma Consolidated Temporary Seismic Networks ()</Description>
+    <Identifier type="DOI">10.7914/SN/O2
+   </Identifier>
+    <TotalNumberStations>79</TotalNumberStations>
+    <SelectedNumberStations>29</SelectedNumberStations>
+    <Station code="CAL1" startDate="2026-04-08T20:27:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.632032</Latitude>
+      <Longitude unit="DEGREES">-98.030305</Longitude>
+      <Elevation>429.0</Elevation>
+      <Site>
+        <Name>Calumet, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CALT" startDate="2019-10-01T17:30:33.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.6719</Latitude>
+      <Longitude unit="DEGREES">-98.2205</Longitude>
+      <Elevation>430.0</Elevation>
+      <Site>
+        <Name>Calumet, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-10-01T17:30:33.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CHAN" startDate="2018-03-01T00:00:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.652956</Latitude>
+      <Longitude unit="DEGREES">-96.785491</Longitude>
+      <Elevation>266.0</Elevation>
+      <Site>
+        <Name>Chandler, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2018-03-01T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>5</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CRES" startDate="2018-03-14T00:00:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.037118</Latitude>
+      <Longitude unit="DEGREES">-97.534468</Longitude>
+      <Elevation>311.0</Elevation>
+      <Site>
+        <Name>Cresent, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2018-03-14T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>5</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CVNG" startDate="2021-04-13T18:35:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.3183</Latitude>
+      <Longitude unit="DEGREES">-97.4347</Longitude>
+      <Elevation>358.0</Elevation>
+      <Site>
+        <Name>Covington, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2021-04-13T18:35:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="DUST" startDate="2019-12-04T18:28:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.2803</Latitude>
+      <Longitude unit="DEGREES">-96.1087</Longitude>
+      <Elevation>268.0</Elevation>
+      <Site>
+        <Name>Dustin, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-12-04T18:28:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="ERNS" startDate="2019-10-01T15:05:19.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.4243</Latitude>
+      <Longitude unit="DEGREES">-98.0293</Longitude>
+      <Elevation>418.0</Elevation>
+      <Site>
+        <Name>El Reno, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-10-01T15:05:19.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FW07" startDate="2019-02-12T19:40:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.44981</Latitude>
+      <Longitude unit="DEGREES">-98.801017</Longitude>
+      <Elevation>404.0</Elevation>
+      <Site>
+        <Name>Waynoka, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-02-12T19:40:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="KS01" startDate="2019-08-01T15:45:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">37.15342</Latitude>
+      <Longitude unit="DEGREES">-97.75897</Longitude>
+      <Elevation>360.0</Elevation>
+      <Site>
+        <Name>Argonia South Station, Kansas</Name>
+      </Site>
+      <CreationDate>2019-08-01T15:45:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="KS08" startDate="2019-07-31T21:53:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">37.22672</Latitude>
+      <Longitude unit="DEGREES">-97.970947</Longitude>
+      <Elevation>375.0</Elevation>
+      <Site>
+        <Name>Anthony NE Station, Kansas</Name>
+      </Site>
+      <CreationDate>2019-07-31T21:53:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="KS13" startDate="2019-07-31T22:00:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">37.012881</Latitude>
+      <Longitude unit="DEGREES">-97.477803</Longitude>
+      <Elevation>340.0</Elevation>
+      <Site>
+        <Name>South Haven SW Station, Kansas</Name>
+      </Site>
+      <CreationDate>2019-07-31T22:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="POCA" startDate="2018-03-07T00:00:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.217682</Latitude>
+      <Longitude unit="DEGREES">-98.075301</Longitude>
+      <Elevation>396.0</Elevation>
+      <Site>
+        <Name>Pocasset, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2018-03-07T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>5</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW05" startDate="2019-05-17T15:53:59.999900Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.48506</Latitude>
+      <Longitude unit="DEGREES">-96.964153</Longitude>
+      <Elevation>289.0</Elevation>
+      <Site>
+        <Name>Fairfax, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-05-17T15:53:59.999000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW06" startDate="2019-09-16T17:17:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.42073</Latitude>
+      <Longitude unit="DEGREES">-96.972008</Longitude>
+      <Elevation>303.0</Elevation>
+      <Site>
+        <Name>Pawnee, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-09-16T17:17:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW10" startDate="2019-05-16T20:46:59.999900Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.365555</Latitude>
+      <Longitude unit="DEGREES">-96.831053</Longitude>
+      <Elevation>297.0</Elevation>
+      <Site>
+        <Name>Pawnee, Oklahoma</Name>
+      </Site>
+      <CreationDate>2019-05-16T20:46:59.999000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW19" startDate="2019-05-17T18:37:59.999900Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.56854</Latitude>
+      <Longitude unit="DEGREES">-97.035507</Longitude>
+      <Elevation>301.0</Elevation>
+      <Site>
+        <Name>Marland, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-05-17T18:37:59.999000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SAND" startDate="2022-01-25T17:20:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.0576</Latitude>
+      <Longitude unit="DEGREES">-96.2499</Longitude>
+      <Elevation>261.0</Elevation>
+      <Site>
+        <Name>Sand Springs, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2022-01-25T17:20:00.000000Z</CreationDate>
+      <TotalNumberChannels>9</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC04" startDate="2019-03-07T23:00:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.36356</Latitude>
+      <Longitude unit="DEGREES">-97.473422</Longitude>
+      <Elevation>300.0</Elevation>
+      <Site>
+        <Name>Fox, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-03-07T23:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC09" startDate="2019-03-07T00:00:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.5451</Latitude>
+      <Longitude unit="DEGREES">-97.3657</Longitude>
+      <Elevation>296.0</Elevation>
+      <Site>
+        <Name>Elmore City, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-03-07T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC10" startDate="2019-01-23T20:00:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.422563</Latitude>
+      <Longitude unit="DEGREES">-98.271427</Longitude>
+      <Elevation>502.0</Elevation>
+      <Site>
+        <Name>Scott, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-01-23T20:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC12" startDate="2019-01-24T00:00:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.921667</Latitude>
+      <Longitude unit="DEGREES">-99.3547</Longitude>
+      <Elevation>472.0</Elevation>
+      <Site>
+        <Name>Granite, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-01-24T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>9</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC14" startDate="2019-01-25T00:00:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.452052</Latitude>
+      <Longitude unit="DEGREES">-98.243927</Longitude>
+      <Elevation>339.0</Elevation>
+      <Site>
+        <Name>Walters, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-01-25T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>5</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC15" startDate="2019-01-28T19:45:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.606645</Latitude>
+      <Longitude unit="DEGREES">-99.50059</Longitude>
+      <Elevation>550.0</Elevation>
+      <Site>
+        <Name>Hammon, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-01-28T19:45:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC16" startDate="2019-01-28T19:48:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.974933</Latitude>
+      <Longitude unit="DEGREES">-98.815308</Longitude>
+      <Elevation>500.0</Elevation>
+      <Site>
+        <Name>Oakwood, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2019-01-28T19:48:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC17" startDate="2018-07-18T16:09:45.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.915886</Latitude>
+      <Longitude unit="DEGREES">-97.598334</Longitude>
+      <Elevation>343.2</Elevation>
+      <Site>
+        <Name>Lindsey, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2018-07-18T16:09:45.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC20" startDate="2018-08-01T19:15:29.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.4027</Latitude>
+      <Longitude unit="DEGREES">-98.4409</Longitude>
+      <Elevation>490.0</Elevation>
+      <Site>
+        <Name>Lookeba, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2018-08-01T19:15:29.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="TUTT" startDate="2018-11-09T20:06:30.000000Z" endDate="2026-12-31T23:59:59.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.238272</Latitude>
+      <Longitude unit="DEGREES">-97.755588</Longitude>
+      <Elevation>407.0</Elevation>
+      <Site>
+        <Name>Tuttle, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2018-11-09T20:06:30.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="UCTY" startDate="2021-04-19T19:55:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.39033</Latitude>
+      <Longitude unit="DEGREES">-97.91585</Longitude>
+      <Elevation>368.0</Elevation>
+      <Site>
+        <Name>Union City, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2021-04-19T19:55:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="YUKO" startDate="2021-11-23T22:20:00.000000Z" endDate="2026-12-31T23:59:59.999900Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.5384</Latitude>
+      <Longitude unit="DEGREES">-97.8606</Longitude>
+      <Elevation>392.0</Elevation>
+      <Site>
+        <Name>Yukon, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2021-11-23T22:20:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+  </Network>
+  <Network code="OK" startDate="1978-01-01T00:00:00.000000Z" restrictedStatus="open">
+    <Description>Oklahoma Seismic Network ()</Description>
+    <Identifier type="DOI">10.7914/SN/OK
+   </Identifier>
+    <TotalNumberStations>138</TotalNumberStations>
+    <SelectedNumberStations>121</SelectedNumberStations>
+    <Station code="ALVA" startDate="2025-07-29T20:23:09.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.86954</Latitude>
+      <Longitude unit="DEGREES">-98.793145</Longitude>
+      <Elevation>452.0</Elevation>
+      <Site>
+        <Name>Alva, Oklahoma</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="AMES" startDate="2017-03-22T20:20:20.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.335587</Latitude>
+      <Longitude unit="DEGREES">-98.192787</Longitude>
+      <Elevation>394.0</Elevation>
+      <Site>
+        <Name>Ames, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2017-03-22T20:20:20.000000Z</CreationDate>
+      <TotalNumberChannels>9</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="ARC2" startDate="2025-09-11T18:33:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.743125</Latitude>
+      <Longitude unit="DEGREES">-97.272553</Longitude>
+      <Elevation>310.0</Elevation>
+      <Site>
+        <Name>Arcadia, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BAUM" startDate="2026-02-12T17:25:43.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.252621</Latitude>
+      <Longitude unit="DEGREES">-97.022168</Longitude>
+      <Elevation>257.0</Elevation>
+      <Site>
+        <Name>BAUM, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BEBE" startDate="2025-09-12T16:55:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.866666</Latitude>
+      <Longitude unit="DEGREES">-96.752861</Longitude>
+      <Elevation>303.0</Elevation>
+      <Site>
+        <Name>BEBE, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BIBY" startDate="2025-08-20T20:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.748168</Latitude>
+      <Longitude unit="DEGREES">-98.016588</Longitude>
+      <Elevation>332.0</Elevation>
+      <Site>
+        <Name>Nash, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BILL" startDate="2025-09-27T21:33:41.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.783543</Latitude>
+      <Longitude unit="DEGREES">-98.036171</Longitude>
+      <Elevation>348.0</Elevation>
+      <Site>
+        <Name>BILL, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BLAN" startDate="2025-08-26T18:10:42.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.177221</Latitude>
+      <Longitude unit="DEGREES">-97.72219</Longitude>
+      <Elevation>389.0</Elevation>
+      <Site>
+        <Name>Blanchard, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BLOK" startDate="2015-05-27T15:55:07.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.760615</Latitude>
+      <Longitude unit="DEGREES">-97.215026</Longitude>
+      <Elevation>301.0</Elevation>
+      <Site>
+        <Name>Blackwell, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2015-05-27T15:55:07.000000Z</CreationDate>
+      <TotalNumberChannels>9</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BLUF" startDate="2017-06-22T20:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.65666</Latitude>
+      <Longitude unit="DEGREES">-97.60933</Longitude>
+      <Elevation>302.0</Elevation>
+      <Site>
+        <Name>Edmond, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2017-06-22T20:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>12</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BOBW" startDate="2025-03-10T15:50:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.070298</Latitude>
+      <Longitude unit="DEGREES">-97.087342</Longitude>
+      <Elevation>322.0</Elevation>
+      <Site>
+        <Name>BobWarren, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BOZZ" startDate="2026-02-06T21:08:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.084043</Latitude>
+      <Longitude unit="DEGREES">-95.888371</Longitude>
+      <Elevation>164.0</Elevation>
+      <Site>
+        <Name>BOZZ, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BREW" startDate="2026-04-30T21:35:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.451276</Latitude>
+      <Longitude unit="DEGREES">-97.665686</Longitude>
+      <Elevation>325.0</Elevation>
+      <Site>
+        <Name>BREW, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="BUCK" startDate="2026-04-09T21:57:56.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.165315</Latitude>
+      <Longitude unit="DEGREES">-94.70687</Longitude>
+      <Elevation>127.0</Elevation>
+      <Site>
+        <Name>BUCK, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CAVE" startDate="2026-05-22T16:47:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.744118</Latitude>
+      <Longitude unit="DEGREES">-96.701275</Longitude>
+      <Elevation>329.0</Elevation>
+      <Site>
+        <Name>CAVE, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CHAB" startDate="2025-07-29T19:04:08.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.021265</Latitude>
+      <Longitude unit="DEGREES">-97.122593</Longitude>
+      <Elevation>278.0</Elevation>
+      <Site>
+        <Name>Stillwater, Oklahoma</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CHIC" startDate="2025-10-16T20:18:09.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.089661</Latitude>
+      <Longitude unit="DEGREES">-97.912778</Longitude>
+      <Elevation>343.0</Elevation>
+      <Site>
+        <Name>CHIC, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CHOK" startDate="2015-03-13T00:12:28.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.561127</Latitude>
+      <Longitude unit="DEGREES">-97.061303</Longitude>
+      <Elevation>338.0</Elevation>
+      <Site>
+        <Name>Chandler, Oklahoma</Name>
+      </Site>
+      <CreationDate>2015-03-13T00:12:28.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="COLE" startDate="2024-07-19T17:53:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.06673</Latitude>
+      <Longitude unit="DEGREES">-97.53418</Longitude>
+      <Elevation>373.0</Elevation>
+      <Site>
+        <Name>Cole, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CROK" startDate="2013-08-07T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.504737</Latitude>
+      <Longitude unit="DEGREES">-97.983354</Longitude>
+      <Elevation>403.0</Elevation>
+      <Site>
+        <Name>Carrier, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2013-08-07T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>9</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="CSTR" startDate="2016-07-14T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.645556</Latitude>
+      <Longitude unit="DEGREES">-98.688889</Longitude>
+      <Elevation>516.3</Elevation>
+      <Site>
+        <Name>Hydro, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2016-07-14T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="DAVD" startDate="2026-06-24T20:42:16.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.544136</Latitude>
+      <Longitude unit="DEGREES">-98.129398</Longitude>
+      <Elevation>452.0</Elevation>
+      <Site>
+        <Name>DAVD, Oklahoma</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="DEMC" startDate="2026-03-09T21:23:30.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">33.938266</Latitude>
+      <Longitude unit="DEGREES">-96.4004</Longitude>
+      <Elevation>213.0</Elevation>
+      <Site>
+        <Name>DEMC, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="DEOK" startDate="2015-10-30T12:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.842652</Latitude>
+      <Longitude unit="DEGREES">-96.498262</Longitude>
+      <Elevation>291.0</Elevation>
+      <Site>
+        <Name>Depew, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2015-10-30T12:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>12</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="DOVR" startDate="2026-02-12T17:25:43.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.954333</Latitude>
+      <Longitude unit="DEGREES">-97.988182</Longitude>
+      <Elevation>337.0</Elevation>
+      <Site>
+        <Name>DOVR, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="DRIP" startDate="2026-04-03T20:35:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.6127</Latitude>
+      <Longitude unit="DEGREES">-96.065</Longitude>
+      <Elevation>243.0</Elevation>
+      <Site>
+        <Name>DRIP, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="DUST" startDate="2026-03-27T19:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.280238</Latitude>
+      <Longitude unit="DEGREES">-96.108686</Longitude>
+      <Elevation>272.8</Elevation>
+      <Site>
+        <Name>DUST, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="ELI2" startDate="2025-05-14T17:02:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.048211</Latitude>
+      <Longitude unit="DEGREES">-99.43687</Longitude>
+      <Elevation>642.0</Elevation>
+      <Site>
+        <Name>ELI2, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="ELIS" startDate="2016-04-07T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.065254</Latitude>
+      <Longitude unit="DEGREES">-99.418043</Longitude>
+      <Elevation>641.0</Elevation>
+      <Site>
+        <Name>Ellis County, Oklahoma</Name>
+      </Site>
+      <CreationDate>2016-04-07T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="ELKC" startDate="2026-05-13T18:52:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.382023</Latitude>
+      <Longitude unit="DEGREES">-99.415203</Longitude>
+      <Elevation>598.0</Elevation>
+      <Site>
+        <Name>ELKC, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FISK" startDate="2025-08-20T20:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.502303</Latitude>
+      <Longitude unit="DEGREES">-97.508893</Longitude>
+      <Elevation>313.0</Elevation>
+      <Site>
+        <Name>Billings, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FNO" startDate="2011-09-16T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.25738</Latitude>
+      <Longitude unit="DEGREES">-97.40115</Longitude>
+      <Elevation>352.0</Elevation>
+      <Site>
+        <Name>Franklin, Norman, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2011-09-16T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>12</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FREE" startDate="2025-08-28T21:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.930116</Latitude>
+      <Longitude unit="DEGREES">-99.270593</Longitude>
+      <Elevation>560.0</Elevation>
+      <Site>
+        <Name>Freedom, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FW01" startDate="2025-07-31T19:24:18.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.494623</Latitude>
+      <Longitude unit="DEGREES">-98.94077</Longitude>
+      <Elevation>438.0</Elevation>
+      <Site>
+        <Name>Fairview, Oklahoma</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FW03" startDate="2025-09-26T15:22:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.52687</Latitude>
+      <Longitude unit="DEGREES">-99.17294</Longitude>
+      <Elevation>628.0</Elevation>
+      <Site>
+        <Name>Fairview, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-09-26T15:22:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FW04" startDate="2025-10-31T16:04:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.596043</Latitude>
+      <Longitude unit="DEGREES">-98.665524</Longitude>
+      <Elevation>453.0</Elevation>
+      <Site>
+        <Name>FW04, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FW05" startDate="2025-09-25T21:15:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.479405</Latitude>
+      <Longitude unit="DEGREES">-98.605389</Longitude>
+      <Elevation>444.0</Elevation>
+      <Site>
+        <Name>FW05, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-09-25T21:15:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FW06" startDate="2025-07-31T15:14:57.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.51381</Latitude>
+      <Longitude unit="DEGREES">-98.499048</Longitude>
+      <Elevation>422.0</Elevation>
+      <Site>
+        <Name>Aline, Oklahoma</Name>
+      </Site>
+      <CreationDate>2025-07-31T15:14:57.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FW09" startDate="2025-12-10T20:23:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.550787</Latitude>
+      <Longitude unit="DEGREES">-99.040665</Longitude>
+      <Elevation>517.0</Elevation>
+      <Site>
+        <Name>FW09, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-12-10T20:23:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="FW10" startDate="2025-10-30T20:36:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.505993</Latitude>
+      <Longitude unit="DEGREES">-98.71849</Longitude>
+      <Elevation>463.0</Elevation>
+      <Site>
+        <Name>FW10, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-10-30T20:36:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="GC02" startDate="2014-11-05T20:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.8515</Latitude>
+      <Longitude unit="DEGREES">-97.85959</Longitude>
+      <Elevation>354.0</Elevation>
+      <Site>
+        <Name>Grant County #2, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2014-11-05T20:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>9</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="GORE" startDate="2025-11-25T19:29:21.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.785632</Latitude>
+      <Longitude unit="DEGREES">-97.947062</Longitude>
+      <Elevation>348.0</Elevation>
+      <Site>
+        <Name>GORE, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-11-25T19:29:21.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="GRAY" startDate="2026-02-05T19:31:43.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.146911</Latitude>
+      <Longitude unit="DEGREES">-97.352816</Longitude>
+      <Elevation>272.0</Elevation>
+      <Site>
+        <Name>GRAY, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="HARD" startDate="2026-03-09T18:46:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.905778</Latitude>
+      <Longitude unit="DEGREES">-96.035815</Longitude>
+      <Elevation>226.0</Elevation>
+      <Site>
+        <Name>HARD, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="HEAL" startDate="2026-06-16T20:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.31632</Latitude>
+      <Longitude unit="DEGREES">-97.531846</Longitude>
+      <Elevation>329.0</Elevation>
+      <Site>
+        <Name>HEAL, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="HEWI" startDate="2025-02-27T16:15:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">37.048825</Latitude>
+      <Longitude unit="DEGREES">-96.408082</Longitude>
+      <Elevation>284.0</Elevation>
+      <Site>
+        <Name>Hewins, Kansas, USA</Name>
+      </Site>
+      <CreationDate>2025-02-27T16:15:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="HOLD" startDate="2025-10-10T16:39:43.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.801445</Latitude>
+      <Longitude unit="DEGREES">-97.43569</Longitude>
+      <Elevation>327.0</Elevation>
+      <Site>
+        <Name>HOLD, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-10-10T16:39:43.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="HTCH" startDate="2016-04-01T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.017058</Latitude>
+      <Longitude unit="DEGREES">-98.332692</Longitude>
+      <Elevation>347.0</Elevation>
+      <Site>
+        <Name>Hitchcock, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2016-04-01T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="KENA" startDate="2026-05-29T16:40:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.893203</Latitude>
+      <Longitude unit="DEGREES">-97.442636</Longitude>
+      <Elevation>296.0</Elevation>
+      <Site>
+        <Name>KENA, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="KIRK" startDate="2026-03-11T17:55:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.8266</Latitude>
+      <Longitude unit="DEGREES">-98.670018</Longitude>
+      <Elevation>528.0</Elevation>
+      <Site>
+        <Name>KIRK, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="LAZY" startDate="2026-02-10T18:42:44.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.094423</Latitude>
+      <Longitude unit="DEGREES">-97.604785</Longitude>
+      <Elevation>374.0</Elevation>
+      <Site>
+        <Name>LAZY, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="LEXS" startDate="2025-09-18T20:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.73363</Latitude>
+      <Longitude unit="DEGREES">-101.47511</Longitude>
+      <Elevation>930.0</Elevation>
+      <Site>
+        <Name>LEXS, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-09-18T20:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="LOOK" startDate="2015-05-01T19:15:52.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">33.992427</Latitude>
+      <Longitude unit="DEGREES">-97.17999</Longitude>
+      <Elevation>286.0</Elevation>
+      <Site>
+        <Name>Love County, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2015-05-01T19:15:52.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="MADI" startDate="2025-12-18T19:57:43.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.12727</Latitude>
+      <Longitude unit="DEGREES">-96.888553</Longitude>
+      <Elevation>282.0</Elevation>
+      <Site>
+        <Name>MADI, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="MAPL" startDate="2025-02-28T20:06:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">37.05707</Latitude>
+      <Longitude unit="DEGREES">-96.80499</Longitude>
+      <Elevation>402.0</Elevation>
+      <Site>
+        <Name>Maple City, Kansas, USA</Name>
+      </Site>
+      <CreationDate>2025-02-28T20:06:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="MILO" startDate="2026-05-22T18:47:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.330615</Latitude>
+      <Longitude unit="DEGREES">-97.332711</Longitude>
+      <Elevation>271.0</Elevation>
+      <Site>
+        <Name>MILO, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="MRSH" startDate="2025-12-02T21:10:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.13231</Latitude>
+      <Longitude unit="DEGREES">-97.69548</Longitude>
+      <Elevation>309.0</Elevation>
+      <Site>
+        <Name>MRSH, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="MUST" startDate="2026-06-08T20:43:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.412795</Latitude>
+      <Longitude unit="DEGREES">-97.761201</Longitude>
+      <Elevation>408.0</Elevation>
+      <Site>
+        <Name>MUST, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="NETT" startDate="2025-09-13T16:55:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.905243</Latitude>
+      <Longitude unit="DEGREES">-97.674425</Longitude>
+      <Elevation>336.0</Elevation>
+      <Site>
+        <Name>Nett, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="NIEM" startDate="2026-06-29T18:25:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.624043</Latitude>
+      <Longitude unit="DEGREES">-97.874341</Longitude>
+      <Elevation>386.0</Elevation>
+      <Site>
+        <Name>NIEM, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="NOKA" startDate="2016-02-18T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.63468</Latitude>
+      <Longitude unit="DEGREES">-98.93193</Longitude>
+      <Elevation>476.0</Elevation>
+      <Site>
+        <Name>Waynoka, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2016-02-18T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OKAR" startDate="2026-06-24T16:50:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.724116</Latitude>
+      <Longitude unit="DEGREES">-98.122465</Longitude>
+      <Elevation>382.0</Elevation>
+      <Site>
+        <Name>OKAR, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS01" startDate="2024-09-25T19:30:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.844975</Latitude>
+      <Longitude unit="DEGREES">-96.731532</Longitude>
+      <Elevation>332.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS02" startDate="2024-09-06T17:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.824902</Latitude>
+      <Longitude unit="DEGREES">-96.702498</Longitude>
+      <Elevation>329.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS04" startDate="2024-09-12T20:20:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.684111</Latitude>
+      <Longitude unit="DEGREES">-96.295853</Longitude>
+      <Elevation>274.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS05" startDate="2024-09-16T20:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.74903</Latitude>
+      <Longitude unit="DEGREES">-96.188115</Longitude>
+      <Elevation>275.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS09" startDate="2024-09-16T19:25:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.588805</Latitude>
+      <Longitude unit="DEGREES">-96.726525</Longitude>
+      <Elevation>271.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS10" startDate="2024-08-19T18:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.691407</Latitude>
+      <Longitude unit="DEGREES">-96.887095</Longitude>
+      <Elevation>319.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS12" startDate="2024-09-06T14:10:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.675628</Latitude>
+      <Longitude unit="DEGREES">-96.627373</Longitude>
+      <Elevation>340.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS13" startDate="2024-09-19T19:06:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.543735</Latitude>
+      <Longitude unit="DEGREES">-96.262619</Longitude>
+      <Elevation>279.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS14" startDate="2024-09-06T14:10:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.884968</Latitude>
+      <Longitude unit="DEGREES">-97.096605</Longitude>
+      <Elevation>340.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OS15" startDate="2024-09-25T14:30:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.959636</Latitude>
+      <Longitude unit="DEGREES">-96.687232</Longitude>
+      <Elevation>374.0</Elevation>
+      <Site>
+        <Name>Osage, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="OWEN" startDate="2025-11-11T20:38:12.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.595985</Latitude>
+      <Longitude unit="DEGREES">-97.755671</Longitude>
+      <Elevation>382.0</Elevation>
+      <Site>
+        <Name>OWEN, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PERY" startDate="2025-08-19T20:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.26001</Latitude>
+      <Longitude unit="DEGREES">-97.235063</Longitude>
+      <Elevation>209.0</Elevation>
+      <Site>
+        <Name>Perry, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW01" startDate="2026-02-06T17:20:13.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.401833</Latitude>
+      <Longitude unit="DEGREES">-96.929266</Longitude>
+      <Elevation>321.0</Elevation>
+      <Site>
+        <Name>PW01, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW10" startDate="2026-06-30T18:55:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.36557</Latitude>
+      <Longitude unit="DEGREES">-96.83104</Longitude>
+      <Elevation>310.0</Elevation>
+      <Site>
+        <Name>PW10, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW13" startDate="2026-04-04T17:18:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.328488</Latitude>
+      <Longitude unit="DEGREES">-96.817845</Longitude>
+      <Elevation>290.0</Elevation>
+      <Site>
+        <Name>PW13, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW17" startDate="2025-08-01T19:53:25.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.245381</Latitude>
+      <Longitude unit="DEGREES">-96.7002</Longitude>
+      <Elevation>325.0</Elevation>
+      <Site>
+        <Name>Pawnee, Oklahoma</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW18" startDate="2025-10-28T20:20:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.278995</Latitude>
+      <Longitude unit="DEGREES">-97.044228</Longitude>
+      <Elevation>294.0</Elevation>
+      <Site>
+        <Name>PW18, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-10-28T20:20:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW21" startDate="2026-06-18T21:32:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.368846</Latitude>
+      <Longitude unit="DEGREES">-96.777113</Longitude>
+      <Elevation>278.0</Elevation>
+      <Site>
+        <Name>PW21, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="PW30" startDate="2026-02-13T15:37:42.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.416916</Latitude>
+      <Longitude unit="DEGREES">-96.821733</Longitude>
+      <Elevation>311.0</Elevation>
+      <Site>
+        <Name>PW30, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="QUIN" startDate="2025-12-09T20:16:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.2021</Latitude>
+      <Longitude unit="DEGREES">-95.4692</Longitude>
+      <Elevation>227.0</Elevation>
+      <Site>
+        <Name>QUIN, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-12-09T20:16:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="QUOK" startDate="2014-03-27T21:17:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.171423</Latitude>
+      <Longitude unit="DEGREES">-96.707911</Longitude>
+      <Elevation>296.0</Elevation>
+      <Site>
+        <Name>Quay, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2014-03-27T21:17:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="RICK" startDate="2025-09-20T16:03:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.99671</Latitude>
+      <Longitude unit="DEGREES">-98.47475</Longitude>
+      <Elevation>475.0</Elevation>
+      <Site>
+        <Name>RICK, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="RLO2" startDate="2021-09-02T20:41:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.168056</Latitude>
+      <Longitude unit="DEGREES">-95.0275</Longitude>
+      <Elevation>395.0</Elevation>
+      <Site>
+        <Name>Rose, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2021-09-02T20:41:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="ROFF" startDate="2025-06-24T23:23:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.665253</Latitude>
+      <Longitude unit="DEGREES">-96.85433</Longitude>
+      <Elevation>357.0</Elevation>
+      <Site>
+        <Name>Roff, Oklahoma</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="ROSS" startDate="2025-07-30T15:49:39.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.947236</Latitude>
+      <Longitude unit="DEGREES">-99.866688</Longitude>
+      <Elevation>615.0</Elevation>
+      <Site>
+        <Name>Rosston, Oklahoma</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="ROYM" startDate="2026-03-31T19:16:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.612176</Latitude>
+      <Longitude unit="DEGREES">-98.01279</Longitude>
+      <Elevation>447.0</Elevation>
+      <Site>
+        <Name>ROYM, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SAND" startDate="2026-06-18T17:30:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.057605</Latitude>
+      <Longitude unit="DEGREES">-96.249926</Longitude>
+      <Elevation>283.0</Elevation>
+      <Site>
+        <Name>SAND, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SAYRE" startDate="2026-05-13T21:19:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.411686</Latitude>
+      <Longitude unit="DEGREES">-99.705453</Longitude>
+      <Elevation>647.0</Elevation>
+      <Site>
+        <Name>SAYRE, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC01" startDate="2025-07-10T21:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.18467</Latitude>
+      <Longitude unit="DEGREES">-97.820268</Longitude>
+      <Elevation>384.0</Elevation>
+      <Site>
+        <Name>Tuttle, Grady County, OK, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC02" startDate="2025-08-21T17:45:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.797728</Latitude>
+      <Longitude unit="DEGREES">-97.38899</Longitude>
+      <Elevation>324.0</Elevation>
+      <Site>
+        <Name>Maysville, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC03" startDate="2025-07-10T21:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.940115</Latitude>
+      <Longitude unit="DEGREES">-97.848971</Longitude>
+      <Elevation>350.0</Elevation>
+      <Site>
+        <Name>Tuttle, Grady County, OK, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC07" startDate="2026-02-10T19:22:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.933706</Latitude>
+      <Longitude unit="DEGREES">-98.214031</Longitude>
+      <Elevation>437.0</Elevation>
+      <Site>
+        <Name>SC07, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC08" startDate="2025-09-12T20:50:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.687273</Latitude>
+      <Longitude unit="DEGREES">-96.393077</Longitude>
+      <Elevation>200.0</Elevation>
+      <Site>
+        <Name>SC08, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC11" startDate="2026-02-03T20:45:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.182585</Latitude>
+      <Longitude unit="DEGREES">-98.740646</Longitude>
+      <Elevation>423.0</Elevation>
+      <Site>
+        <Name>SC11, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC19" startDate="2025-12-11T15:42:25.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.220151</Latitude>
+      <Longitude unit="DEGREES">-97.843067</Longitude>
+      <Elevation>344.0</Elevation>
+      <Site>
+        <Name>SC19, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-12-11T15:42:25.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SC20" startDate="2018-08-01T19:15:29.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.4027</Latitude>
+      <Longitude unit="DEGREES">-98.4409</Longitude>
+      <Elevation>490.0</Elevation>
+      <Site>
+        <Name>Lookeba, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>9</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SHAW" startDate="2025-11-21T17:54:43.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.281133</Latitude>
+      <Longitude unit="DEGREES">-96.842048</Longitude>
+      <Elevation>325.0</Elevation>
+      <Site>
+        <Name>SHAW, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-11-21T17:54:43.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SMNL" startDate="2025-12-17T17:12:02.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.29415</Latitude>
+      <Longitude unit="DEGREES">-96.56492</Longitude>
+      <Elevation>317.0</Elevation>
+      <Site>
+        <Name>SMNL, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-12-17T17:12:02.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SMO" startDate="2017-04-13T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.523142</Latitude>
+      <Longitude unit="DEGREES">-97.474662</Longitude>
+      <Elevation>357.0</Elevation>
+      <Site>
+        <Name>Science Museum, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2017-04-13T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SPEN" startDate="2026-03-10T19:30:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.119171</Latitude>
+      <Longitude unit="DEGREES">-95.317193</Longitude>
+      <Elevation>197.0</Elevation>
+      <Site>
+        <Name>SPEN, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SPLD" startDate="2026-04-02T19:15:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.030903</Latitude>
+      <Longitude unit="DEGREES">-96.430798</Longitude>
+      <Elevation>244.0</Elevation>
+      <Site>
+        <Name>SPLD, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SPRA" startDate="2025-12-17T18:01:07.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.709986</Latitude>
+      <Longitude unit="DEGREES">-97.606371</Longitude>
+      <Elevation>321.0</Elevation>
+      <Site>
+        <Name>SPRA, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-12-17T18:01:07.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="STIG" startDate="2026-03-03T21:32:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.3406</Latitude>
+      <Longitude unit="DEGREES">-95.1056</Longitude>
+      <Elevation>256.0</Elevation>
+      <Site>
+        <Name>STIG, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="STRB" startDate="2025-10-09T19:05:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.863341</Latitude>
+      <Longitude unit="DEGREES">-97.251549</Longitude>
+      <Elevation>335.0</Elevation>
+      <Site>
+        <Name>STRB, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-10-09T19:05:00.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="SWTZ" startDate="2026-06-24T19:42:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.63373</Latitude>
+      <Longitude unit="DEGREES">-98.155505</Longitude>
+      <Elevation>422.0</Elevation>
+      <Site>
+        <Name>SWTZ, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="TASC" startDate="2025-12-16T19:42:38.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.518</Latitude>
+      <Longitude unit="DEGREES">-96.750436</Longitude>
+      <Elevation>270.0</Elevation>
+      <Site>
+        <Name>TASC, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-12-16T19:42:38.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="TG11" startDate="2026-05-20T18:44:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.269013</Latitude>
+      <Longitude unit="DEGREES">-97.814551</Longitude>
+      <Elevation>412.0</Elevation>
+      <Site>
+        <Name>TG11, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="TISH" startDate="2023-07-21T15:34:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.44016</Latitude>
+      <Longitude unit="DEGREES">-96.5436</Longitude>
+      <Elevation>225.0</Elevation>
+      <Site>
+        <Name>Milburn, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2023-07-21T15:34:00.000000Z</CreationDate>
+      <TotalNumberChannels>9</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="TUTL" startDate="2026-07-01T18:30:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.317891</Latitude>
+      <Longitude unit="DEGREES">-97.768146</Longitude>
+      <Elevation>376.0</Elevation>
+      <Site>
+        <Name>TUTL, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="U32A" startDate="2012-02-24T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">36.3795</Latitude>
+      <Longitude unit="DEGREES">-99.0014</Longitude>
+      <Elevation>525.0</Elevation>
+      <Site>
+        <Name>Winter Ranch, Mooreland, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2012-02-24T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>45</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="VIAN" startDate="2026-04-10T15:12:42.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.620263</Latitude>
+      <Longitude unit="DEGREES">-95.022125</Longitude>
+      <Elevation>264.0</Elevation>
+      <Site>
+        <Name>VIAN, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="W35A" startDate="2012-02-15T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.15274</Latitude>
+      <Longitude unit="DEGREES">-96.87453</Longitude>
+      <Elevation>322.0</Elevation>
+      <Site>
+        <Name>Tecumseh, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2012-02-15T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="WADE" startDate="2026-02-11T18:27:41.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.148858</Latitude>
+      <Longitude unit="DEGREES">-97.61923</Longitude>
+      <Elevation>286.0</Elevation>
+      <Site>
+        <Name>WADE, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="WELL" startDate="2025-11-04T19:37:15.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.792833</Latitude>
+      <Longitude unit="DEGREES">-97.062435</Longitude>
+      <Elevation>317.0</Elevation>
+      <Site>
+        <Name>WELL, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2025-11-04T19:37:15.000000Z</CreationDate>
+      <TotalNumberChannels>3</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="WILZ" startDate="2025-11-19T19:43:40.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.536111</Latitude>
+      <Longitude unit="DEGREES">-96.737778</Longitude>
+      <Elevation>275.0</Elevation>
+      <Site>
+        <Name>WILZ, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="WINA" startDate="2025-06-23T17:35:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">35.335403</Latitude>
+      <Longitude unit="DEGREES">-97.921441</Longitude>
+      <Elevation>394.0</Elevation>
+      <Site>
+        <Name>WINA, Oklahoma, USA</Name>
+      </Site>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="WLB2" startDate="2024-06-24T18:18:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.946194</Latitude>
+      <Longitude unit="DEGREES">-95.387417</Longitude>
+      <Elevation>214.0</Elevation>
+      <Site>
+        <Name>Wilburton, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2024-06-24T18:18:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="X34A" startDate="2011-10-13T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.60102</Latitude>
+      <Longitude unit="DEGREES">-97.83256</Longitude>
+      <Elevation>364.0</Elevation>
+      <Site>
+        <Name>Smith Ranch, Marlow, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2011-10-13T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+    <Station code="X37A" startDate="2012-02-24T00:00:00.000000Z" restrictedStatus="open">
+      <Latitude unit="DEGREES">34.5892</Latitude>
+      <Longitude unit="DEGREES">-95.3713</Longitude>
+      <Elevation>207.0</Elevation>
+      <Site>
+        <Name>Clayton, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2012-02-24T00:00:00.000000Z</CreationDate>
+      <TotalNumberChannels>40</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+    </Station>
+  </Network>
+</FDSNStationXML>

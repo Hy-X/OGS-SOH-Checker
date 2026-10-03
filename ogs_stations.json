@@ -1,0 +1,1502 @@
+[
+    {
+        "Network": "O2",
+        "Station": "CAL1",
+        "Latitude": 35.632032,
+        "Longitude": -98.030305,
+        "Elevation_m": 429.0,
+        "SiteName": "Calumet, Oklahoma, USA",
+        "StartTime": "2026-04-08 20:27:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "O2",
+        "Station": "CALT",
+        "Latitude": 35.6719,
+        "Longitude": -98.2205,
+        "Elevation_m": 430.0,
+        "SiteName": "Calumet, Oklahoma, USA",
+        "StartTime": "2019-10-01 17:30:33",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "CHAN",
+        "Latitude": 35.652956,
+        "Longitude": -96.785491,
+        "Elevation_m": 266.0,
+        "SiteName": "Chandler, Oklahoma, USA",
+        "StartTime": "2018-03-01 00:00:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "CRES",
+        "Latitude": 36.037118,
+        "Longitude": -97.534468,
+        "Elevation_m": 311.0,
+        "SiteName": "Cresent, Oklahoma, USA",
+        "StartTime": "2018-03-14 00:00:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "CVNG",
+        "Latitude": 36.3183,
+        "Longitude": -97.4347,
+        "Elevation_m": 358.0,
+        "SiteName": "Covington, Oklahoma, USA",
+        "StartTime": "2021-04-13 18:35:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "DUST",
+        "Latitude": 35.2803,
+        "Longitude": -96.1087,
+        "Elevation_m": 268.0,
+        "SiteName": "Dustin, Oklahoma, USA",
+        "StartTime": "2019-12-04 18:28:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "ERNS",
+        "Latitude": 35.4243,
+        "Longitude": -98.0293,
+        "Elevation_m": 418.0,
+        "SiteName": "El Reno, Oklahoma, USA",
+        "StartTime": "2019-10-01 15:05:19",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "FW07",
+        "Latitude": 36.44981,
+        "Longitude": -98.801017,
+        "Elevation_m": 404.0,
+        "SiteName": "Waynoka, Oklahoma, USA",
+        "StartTime": "2019-02-12 19:40:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "KS01",
+        "Latitude": 37.15342,
+        "Longitude": -97.75897,
+        "Elevation_m": 360.0,
+        "SiteName": "Argonia South Station, Kansas",
+        "StartTime": "2019-08-01 15:45:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "KS08",
+        "Latitude": 37.22672,
+        "Longitude": -97.970947,
+        "Elevation_m": 375.0,
+        "SiteName": "Anthony NE Station, Kansas",
+        "StartTime": "2019-07-31 21:53:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "KS13",
+        "Latitude": 37.012881,
+        "Longitude": -97.477803,
+        "Elevation_m": 340.0,
+        "SiteName": "South Haven SW Station, Kansas",
+        "StartTime": "2019-07-31 22:00:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "POCA",
+        "Latitude": 35.217682,
+        "Longitude": -98.075301,
+        "Elevation_m": 396.0,
+        "SiteName": "Pocasset, Oklahoma, USA",
+        "StartTime": "2018-03-07 00:00:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "PW05",
+        "Latitude": 36.48506,
+        "Longitude": -96.964153,
+        "Elevation_m": 289.0,
+        "SiteName": "Fairfax, Oklahoma, USA",
+        "StartTime": "2019-05-17 15:53:59.999900",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "PW06",
+        "Latitude": 36.42073,
+        "Longitude": -96.972008,
+        "Elevation_m": 303.0,
+        "SiteName": "Pawnee, Oklahoma, USA",
+        "StartTime": "2019-09-16 17:17:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "PW10",
+        "Latitude": 36.365555,
+        "Longitude": -96.831053,
+        "Elevation_m": 297.0,
+        "SiteName": "Pawnee, Oklahoma",
+        "StartTime": "2019-05-16 20:46:59.999900",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "PW19",
+        "Latitude": 36.56854,
+        "Longitude": -97.035507,
+        "Elevation_m": 301.0,
+        "SiteName": "Marland, Oklahoma, USA",
+        "StartTime": "2019-05-17 18:37:59.999900",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SAND",
+        "Latitude": 36.0576,
+        "Longitude": -96.2499,
+        "Elevation_m": 261.0,
+        "SiteName": "Sand Springs, Oklahoma, USA",
+        "StartTime": "2022-01-25 17:20:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SC04",
+        "Latitude": 34.36356,
+        "Longitude": -97.473422,
+        "Elevation_m": 300.0,
+        "SiteName": "Fox, Oklahoma, USA",
+        "StartTime": "2019-03-07 23:00:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SC09",
+        "Latitude": 34.5451,
+        "Longitude": -97.3657,
+        "Elevation_m": 296.0,
+        "SiteName": "Elmore City, Oklahoma, USA",
+        "StartTime": "2019-03-07 00:00:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SC10",
+        "Latitude": 35.422563,
+        "Longitude": -98.271427,
+        "Elevation_m": 502.0,
+        "SiteName": "Scott, Oklahoma, USA",
+        "StartTime": "2019-01-23 20:00:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SC12",
+        "Latitude": 34.921667,
+        "Longitude": -99.3547,
+        "Elevation_m": 472.0,
+        "SiteName": "Granite, Oklahoma, USA",
+        "StartTime": "2019-01-24 00:00:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SC14",
+        "Latitude": 34.452052,
+        "Longitude": -98.243927,
+        "Elevation_m": 339.0,
+        "SiteName": "Walters, Oklahoma, USA",
+        "StartTime": "2019-01-25 00:00:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SC15",
+        "Latitude": 35.606645,
+        "Longitude": -99.50059,
+        "Elevation_m": 550.0,
+        "SiteName": "Hammon, Oklahoma, USA",
+        "StartTime": "2019-01-28 19:45:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SC16",
+        "Latitude": 35.974933,
+        "Longitude": -98.815308,
+        "Elevation_m": 500.0,
+        "SiteName": "Oakwood, Oklahoma, USA",
+        "StartTime": "2019-01-28 19:48:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SC17",
+        "Latitude": 34.915886,
+        "Longitude": -97.598334,
+        "Elevation_m": 343.2,
+        "SiteName": "Lindsey, Oklahoma, USA",
+        "StartTime": "2018-07-18 16:09:45",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "SC20",
+        "Latitude": 35.4027,
+        "Longitude": -98.4409,
+        "Elevation_m": 490.0,
+        "SiteName": "Lookeba, Oklahoma, USA",
+        "StartTime": "2018-08-01 19:15:29",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "TUTT",
+        "Latitude": 35.238272,
+        "Longitude": -97.755588,
+        "Elevation_m": 407.0,
+        "SiteName": "Tuttle, Oklahoma, USA",
+        "StartTime": "2018-11-09 20:06:30",
+        "EndTime": "2026-12-31 23:59:59"
+    },
+    {
+        "Network": "O2",
+        "Station": "UCTY",
+        "Latitude": 35.39033,
+        "Longitude": -97.91585,
+        "Elevation_m": 368.0,
+        "SiteName": "Union City, Oklahoma, USA",
+        "StartTime": "2021-04-19 19:55:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "O2",
+        "Station": "YUKO",
+        "Latitude": 35.5384,
+        "Longitude": -97.8606,
+        "Elevation_m": 392.0,
+        "SiteName": "Yukon, Oklahoma, USA",
+        "StartTime": "2021-11-23 22:20:00",
+        "EndTime": "2026-12-31 23:59:59.999900"
+    },
+    {
+        "Network": "OK",
+        "Station": "ALVA",
+        "Latitude": 36.86954,
+        "Longitude": -98.793145,
+        "Elevation_m": 452.0,
+        "SiteName": "Alva, Oklahoma",
+        "StartTime": "2025-07-29 20:23:09",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "AMES",
+        "Latitude": 36.335587,
+        "Longitude": -98.192787,
+        "Elevation_m": 394.0,
+        "SiteName": "Ames, Oklahoma, USA",
+        "StartTime": "2017-03-22 20:20:20",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "ARC2",
+        "Latitude": 35.743125,
+        "Longitude": -97.272553,
+        "Elevation_m": 310.0,
+        "SiteName": "Arcadia, Oklahoma, USA",
+        "StartTime": "2025-09-11 18:33:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BAUM",
+        "Latitude": 34.252621,
+        "Longitude": -97.022168,
+        "Elevation_m": 257.0,
+        "SiteName": "BAUM, Oklahoma, USA",
+        "StartTime": "2026-02-12 17:25:43",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BEBE",
+        "Latitude": 34.866666,
+        "Longitude": -96.752861,
+        "Elevation_m": 303.0,
+        "SiteName": "BEBE, Oklahoma, USA",
+        "StartTime": "2025-09-12 16:55:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BIBY",
+        "Latitude": 36.748168,
+        "Longitude": -98.016588,
+        "Elevation_m": 332.0,
+        "SiteName": "Nash, Oklahoma, USA",
+        "StartTime": "2025-08-20 20:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BILL",
+        "Latitude": 35.783543,
+        "Longitude": -98.036171,
+        "Elevation_m": 348.0,
+        "SiteName": "BILL, Oklahoma, USA",
+        "StartTime": "2025-09-27 21:33:41",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BLAN",
+        "Latitude": 35.177221,
+        "Longitude": -97.72219,
+        "Elevation_m": 389.0,
+        "SiteName": "Blanchard, Oklahoma, USA",
+        "StartTime": "2025-08-26 18:10:42",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BLOK",
+        "Latitude": 36.760615,
+        "Longitude": -97.215026,
+        "Elevation_m": 301.0,
+        "SiteName": "Blackwell, Oklahoma, USA",
+        "StartTime": "2015-05-27 15:55:07",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BLUF",
+        "Latitude": 35.65666,
+        "Longitude": -97.60933,
+        "Elevation_m": 302.0,
+        "SiteName": "Edmond, Oklahoma, USA",
+        "StartTime": "2017-06-22 20:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BOBW",
+        "Latitude": 35.070298,
+        "Longitude": -97.087342,
+        "Elevation_m": 322.0,
+        "SiteName": "BobWarren, Oklahoma, USA",
+        "StartTime": "2025-03-10 15:50:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BOZZ",
+        "Latitude": 34.084043,
+        "Longitude": -95.888371,
+        "Elevation_m": 164.0,
+        "SiteName": "BOZZ, Oklahoma, USA",
+        "StartTime": "2026-02-06 21:08:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BREW",
+        "Latitude": 34.451276,
+        "Longitude": -97.665686,
+        "Elevation_m": 325.0,
+        "SiteName": "BREW, Oklahoma, USA",
+        "StartTime": "2026-04-30 21:35:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "BUCK",
+        "Latitude": 35.165315,
+        "Longitude": -94.70687,
+        "Elevation_m": 127.0,
+        "SiteName": "BUCK, Oklahoma, USA",
+        "StartTime": "2026-04-09 21:57:56",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "CAVE",
+        "Latitude": 34.744118,
+        "Longitude": -96.701275,
+        "Elevation_m": 329.0,
+        "SiteName": "CAVE, Oklahoma, USA",
+        "StartTime": "2026-05-22 16:47:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "CHAB",
+        "Latitude": 36.021265,
+        "Longitude": -97.122593,
+        "Elevation_m": 278.0,
+        "SiteName": "Stillwater, Oklahoma",
+        "StartTime": "2025-07-29 19:04:08",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "CHIC",
+        "Latitude": 35.089661,
+        "Longitude": -97.912778,
+        "Elevation_m": 343.0,
+        "SiteName": "CHIC, Oklahoma, USA",
+        "StartTime": "2025-10-16 20:18:09",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "CHOK",
+        "Latitude": 35.561127,
+        "Longitude": -97.061303,
+        "Elevation_m": 338.0,
+        "SiteName": "Chandler, Oklahoma",
+        "StartTime": "2015-03-13 00:12:28",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "COLE",
+        "Latitude": 35.06673,
+        "Longitude": -97.53418,
+        "Elevation_m": 373.0,
+        "SiteName": "Cole, Oklahoma, USA",
+        "StartTime": "2024-07-19 17:53:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "CROK",
+        "Latitude": 36.504737,
+        "Longitude": -97.983354,
+        "Elevation_m": 403.0,
+        "SiteName": "Carrier, Oklahoma, USA",
+        "StartTime": "2013-08-07 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "CSTR",
+        "Latitude": 35.645556,
+        "Longitude": -98.688889,
+        "Elevation_m": 516.3,
+        "SiteName": "Hydro, Oklahoma, USA",
+        "StartTime": "2016-07-14 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "DAVD",
+        "Latitude": 35.544136,
+        "Longitude": -98.129398,
+        "Elevation_m": 452.0,
+        "SiteName": "DAVD, Oklahoma",
+        "StartTime": "2026-06-24 20:42:16",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "DEMC",
+        "Latitude": 33.938266,
+        "Longitude": -96.4004,
+        "Elevation_m": 213.0,
+        "SiteName": "DEMC, Oklahoma, USA",
+        "StartTime": "2026-03-09 21:23:30",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "DEOK",
+        "Latitude": 35.842652,
+        "Longitude": -96.498262,
+        "Elevation_m": 291.0,
+        "SiteName": "Depew, Oklahoma, USA",
+        "StartTime": "2015-10-30 12:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "DOVR",
+        "Latitude": 35.954333,
+        "Longitude": -97.988182,
+        "Elevation_m": 337.0,
+        "SiteName": "DOVR, Oklahoma, USA",
+        "StartTime": "2026-02-12 17:25:43",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "DRIP",
+        "Latitude": 35.6127,
+        "Longitude": -96.065,
+        "Elevation_m": 243.0,
+        "SiteName": "DRIP, Oklahoma, USA",
+        "StartTime": "2026-04-03 20:35:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "DUST",
+        "Latitude": 35.280238,
+        "Longitude": -96.108686,
+        "Elevation_m": 272.8,
+        "SiteName": "DUST, Oklahoma, USA",
+        "StartTime": "2026-03-27 19:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "ELI2",
+        "Latitude": 36.048211,
+        "Longitude": -99.43687,
+        "Elevation_m": 642.0,
+        "SiteName": "ELI2, Oklahoma, USA",
+        "StartTime": "2025-05-14 17:02:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "ELIS",
+        "Latitude": 36.065254,
+        "Longitude": -99.418043,
+        "Elevation_m": 641.0,
+        "SiteName": "Ellis County, Oklahoma",
+        "StartTime": "2016-04-07 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "ELKC",
+        "Latitude": 35.382023,
+        "Longitude": -99.415203,
+        "Elevation_m": 598.0,
+        "SiteName": "ELKC, Oklahoma, USA",
+        "StartTime": "2026-05-13 18:52:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FISK",
+        "Latitude": 36.502303,
+        "Longitude": -97.508893,
+        "Elevation_m": 313.0,
+        "SiteName": "Billings, Oklahoma, USA",
+        "StartTime": "2025-08-20 20:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FNO",
+        "Latitude": 35.25738,
+        "Longitude": -97.40115,
+        "Elevation_m": 352.0,
+        "SiteName": "Franklin, Norman, Oklahoma, USA",
+        "StartTime": "2011-09-16 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FREE",
+        "Latitude": 36.930116,
+        "Longitude": -99.270593,
+        "Elevation_m": 560.0,
+        "SiteName": "Freedom, Oklahoma, USA",
+        "StartTime": "2025-08-28 21:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FW01",
+        "Latitude": 36.494623,
+        "Longitude": -98.94077,
+        "Elevation_m": 438.0,
+        "SiteName": "Fairview, Oklahoma",
+        "StartTime": "2025-07-31 19:24:18",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FW03",
+        "Latitude": 36.52687,
+        "Longitude": -99.17294,
+        "Elevation_m": 628.0,
+        "SiteName": "Fairview, Oklahoma, USA",
+        "StartTime": "2025-09-26 15:22:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FW04",
+        "Latitude": 36.596043,
+        "Longitude": -98.665524,
+        "Elevation_m": 453.0,
+        "SiteName": "FW04, Oklahoma, USA",
+        "StartTime": "2025-10-31 16:04:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FW05",
+        "Latitude": 36.479405,
+        "Longitude": -98.605389,
+        "Elevation_m": 444.0,
+        "SiteName": "FW05, Oklahoma, USA",
+        "StartTime": "2025-09-25 21:15:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FW06",
+        "Latitude": 36.51381,
+        "Longitude": -98.499048,
+        "Elevation_m": 422.0,
+        "SiteName": "Aline, Oklahoma",
+        "StartTime": "2025-07-31 15:14:57",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FW09",
+        "Latitude": 36.550787,
+        "Longitude": -99.040665,
+        "Elevation_m": 517.0,
+        "SiteName": "FW09, Oklahoma, USA",
+        "StartTime": "2025-12-10 20:23:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "FW10",
+        "Latitude": 36.505993,
+        "Longitude": -98.71849,
+        "Elevation_m": 463.0,
+        "SiteName": "FW10, Oklahoma, USA",
+        "StartTime": "2025-10-30 20:36:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "GC02",
+        "Latitude": 36.8515,
+        "Longitude": -97.85959,
+        "Elevation_m": 354.0,
+        "SiteName": "Grant County #2, Oklahoma, USA",
+        "StartTime": "2014-11-05 20:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "GORE",
+        "Latitude": 36.785632,
+        "Longitude": -97.947062,
+        "Elevation_m": 348.0,
+        "SiteName": "GORE, Oklahoma, USA",
+        "StartTime": "2025-11-25 19:29:21",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "GRAY",
+        "Latitude": 34.146911,
+        "Longitude": -97.352816,
+        "Elevation_m": 272.0,
+        "SiteName": "GRAY, Oklahoma, USA",
+        "StartTime": "2026-02-05 19:31:43",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "HARD",
+        "Latitude": 34.905778,
+        "Longitude": -96.035815,
+        "Elevation_m": 226.0,
+        "SiteName": "HARD, Oklahoma, USA",
+        "StartTime": "2026-03-09 18:46:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "HEAL",
+        "Latitude": 34.31632,
+        "Longitude": -97.531846,
+        "Elevation_m": 329.0,
+        "SiteName": "HEAL, Oklahoma, USA",
+        "StartTime": "2026-06-16 20:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "HEWI",
+        "Latitude": 37.048825,
+        "Longitude": -96.408082,
+        "Elevation_m": 284.0,
+        "SiteName": "Hewins, Kansas, USA",
+        "StartTime": "2025-02-27 16:15:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "HOLD",
+        "Latitude": 35.801445,
+        "Longitude": -97.43569,
+        "Elevation_m": 327.0,
+        "SiteName": "HOLD, Oklahoma, USA",
+        "StartTime": "2025-10-10 16:39:43",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "HTCH",
+        "Latitude": 36.017058,
+        "Longitude": -98.332692,
+        "Elevation_m": 347.0,
+        "SiteName": "Hitchcock, Oklahoma, USA",
+        "StartTime": "2016-04-01 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "KENA",
+        "Latitude": 35.893203,
+        "Longitude": -97.442636,
+        "Elevation_m": 296.0,
+        "SiteName": "KENA, Oklahoma, USA",
+        "StartTime": "2026-05-29 16:40:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "KIRK",
+        "Latitude": 35.8266,
+        "Longitude": -98.670018,
+        "Elevation_m": 528.0,
+        "SiteName": "KIRK, Oklahoma, USA",
+        "StartTime": "2026-03-11 17:55:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "LAZY",
+        "Latitude": 35.094423,
+        "Longitude": -97.604785,
+        "Elevation_m": 374.0,
+        "SiteName": "LAZY, Oklahoma, USA",
+        "StartTime": "2026-02-10 18:42:44",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "LEXS",
+        "Latitude": 36.73363,
+        "Longitude": -101.47511,
+        "Elevation_m": 930.0,
+        "SiteName": "LEXS, Oklahoma, USA",
+        "StartTime": "2025-09-18 20:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "LOOK",
+        "Latitude": 33.992427,
+        "Longitude": -97.17999,
+        "Elevation_m": 286.0,
+        "SiteName": "Love County, Oklahoma, USA",
+        "StartTime": "2015-05-01 19:15:52",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "MADI",
+        "Latitude": 34.12727,
+        "Longitude": -96.888553,
+        "Elevation_m": 282.0,
+        "SiteName": "MADI, Oklahoma, USA",
+        "StartTime": "2025-12-18 19:57:43",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "MAPL",
+        "Latitude": 37.05707,
+        "Longitude": -96.80499,
+        "Elevation_m": 402.0,
+        "SiteName": "Maple City, Kansas, USA",
+        "StartTime": "2025-02-28 20:06:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "MILO",
+        "Latitude": 34.330615,
+        "Longitude": -97.332711,
+        "Elevation_m": 271.0,
+        "SiteName": "MILO, Oklahoma, USA",
+        "StartTime": "2026-05-22 18:47:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "MRSH",
+        "Latitude": 36.13231,
+        "Longitude": -97.69548,
+        "Elevation_m": 309.0,
+        "SiteName": "MRSH, Oklahoma, USA",
+        "StartTime": "2025-12-02 21:10:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "MUST",
+        "Latitude": 35.412795,
+        "Longitude": -97.761201,
+        "Elevation_m": 408.0,
+        "SiteName": "MUST, Oklahoma, USA",
+        "StartTime": "2026-06-08 20:43:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "NETT",
+        "Latitude": 35.905243,
+        "Longitude": -97.674425,
+        "Elevation_m": 336.0,
+        "SiteName": "Nett, Oklahoma, USA",
+        "StartTime": "2025-09-13 16:55:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "NIEM",
+        "Latitude": 35.624043,
+        "Longitude": -97.874341,
+        "Elevation_m": 386.0,
+        "SiteName": "NIEM, Oklahoma, USA",
+        "StartTime": "2026-06-29 18:25:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "NOKA",
+        "Latitude": 36.63468,
+        "Longitude": -98.93193,
+        "Elevation_m": 476.0,
+        "SiteName": "Waynoka, Oklahoma, USA",
+        "StartTime": "2016-02-18 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OKAR",
+        "Latitude": 35.724116,
+        "Longitude": -98.122465,
+        "Elevation_m": 382.0,
+        "SiteName": "OKAR, Oklahoma, USA",
+        "StartTime": "2026-06-24 16:50:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS01",
+        "Latitude": 36.844975,
+        "Longitude": -96.731532,
+        "Elevation_m": 332.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-09-25 19:30:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS02",
+        "Latitude": 36.824902,
+        "Longitude": -96.702498,
+        "Elevation_m": 329.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-09-06 17:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS04",
+        "Latitude": 36.684111,
+        "Longitude": -96.295853,
+        "Elevation_m": 274.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-09-12 20:20:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS05",
+        "Latitude": 36.74903,
+        "Longitude": -96.188115,
+        "Elevation_m": 275.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-09-16 20:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS09",
+        "Latitude": 36.588805,
+        "Longitude": -96.726525,
+        "Elevation_m": 271.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-09-16 19:25:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS10",
+        "Latitude": 36.691407,
+        "Longitude": -96.887095,
+        "Elevation_m": 319.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-08-19 18:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS12",
+        "Latitude": 36.675628,
+        "Longitude": -96.627373,
+        "Elevation_m": 340.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-09-06 14:10:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS13",
+        "Latitude": 36.543735,
+        "Longitude": -96.262619,
+        "Elevation_m": 279.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-09-19 19:06:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS14",
+        "Latitude": 36.884968,
+        "Longitude": -97.096605,
+        "Elevation_m": 340.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-09-06 14:10:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OS15",
+        "Latitude": 36.959636,
+        "Longitude": -96.687232,
+        "Elevation_m": 374.0,
+        "SiteName": "Osage, Oklahoma, USA",
+        "StartTime": "2024-09-25 14:30:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "OWEN",
+        "Latitude": 35.595985,
+        "Longitude": -97.755671,
+        "Elevation_m": 382.0,
+        "SiteName": "OWEN, Oklahoma, USA",
+        "StartTime": "2025-11-11 20:38:12",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "PERY",
+        "Latitude": 36.26001,
+        "Longitude": -97.235063,
+        "Elevation_m": 209.0,
+        "SiteName": "Perry, Oklahoma, USA",
+        "StartTime": "2025-08-19 20:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "PW01",
+        "Latitude": 36.401833,
+        "Longitude": -96.929266,
+        "Elevation_m": 321.0,
+        "SiteName": "PW01, Oklahoma, USA",
+        "StartTime": "2026-02-06 17:20:13",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "PW10",
+        "Latitude": 36.36557,
+        "Longitude": -96.83104,
+        "Elevation_m": 310.0,
+        "SiteName": "PW10, Oklahoma, USA",
+        "StartTime": "2026-06-30 18:55:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "PW13",
+        "Latitude": 36.328488,
+        "Longitude": -96.817845,
+        "Elevation_m": 290.0,
+        "SiteName": "PW13, Oklahoma, USA",
+        "StartTime": "2026-04-04 17:18:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "PW17",
+        "Latitude": 36.245381,
+        "Longitude": -96.7002,
+        "Elevation_m": 325.0,
+        "SiteName": "Pawnee, Oklahoma",
+        "StartTime": "2025-08-01 19:53:25",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "PW18",
+        "Latitude": 36.278995,
+        "Longitude": -97.044228,
+        "Elevation_m": 294.0,
+        "SiteName": "PW18, Oklahoma, USA",
+        "StartTime": "2025-10-28 20:20:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "PW21",
+        "Latitude": 36.368846,
+        "Longitude": -96.777113,
+        "Elevation_m": 278.0,
+        "SiteName": "PW21, Oklahoma, USA",
+        "StartTime": "2026-06-18 21:32:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "PW30",
+        "Latitude": 36.416916,
+        "Longitude": -96.821733,
+        "Elevation_m": 311.0,
+        "SiteName": "PW30, Oklahoma, USA",
+        "StartTime": "2026-02-13 15:37:42",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "QUIN",
+        "Latitude": 35.2021,
+        "Longitude": -95.4692,
+        "Elevation_m": 227.0,
+        "SiteName": "QUIN, Oklahoma, USA",
+        "StartTime": "2025-12-09 20:16:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "QUOK",
+        "Latitude": 36.171423,
+        "Longitude": -96.707911,
+        "Elevation_m": 296.0,
+        "SiteName": "Quay, Oklahoma, USA",
+        "StartTime": "2014-03-27 21:17:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "RICK",
+        "Latitude": 35.99671,
+        "Longitude": -98.47475,
+        "Elevation_m": 475.0,
+        "SiteName": "RICK, Oklahoma, USA",
+        "StartTime": "2025-09-20 16:03:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "RLO2",
+        "Latitude": 36.168056,
+        "Longitude": -95.0275,
+        "Elevation_m": 395.0,
+        "SiteName": "Rose, Oklahoma, USA",
+        "StartTime": "2021-09-02 20:41:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "ROFF",
+        "Latitude": 34.665253,
+        "Longitude": -96.85433,
+        "Elevation_m": 357.0,
+        "SiteName": "Roff, Oklahoma",
+        "StartTime": "2025-06-24 23:23:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "ROSS",
+        "Latitude": 36.947236,
+        "Longitude": -99.866688,
+        "Elevation_m": 615.0,
+        "SiteName": "Rosston, Oklahoma",
+        "StartTime": "2025-07-30 15:49:39",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "ROYM",
+        "Latitude": 35.612176,
+        "Longitude": -98.01279,
+        "Elevation_m": 447.0,
+        "SiteName": "ROYM, Oklahoma, USA",
+        "StartTime": "2026-03-31 19:16:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SAND",
+        "Latitude": 36.057605,
+        "Longitude": -96.249926,
+        "Elevation_m": 283.0,
+        "SiteName": "SAND, Oklahoma, USA",
+        "StartTime": "2026-06-18 17:30:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SAYRE",
+        "Latitude": 35.411686,
+        "Longitude": -99.705453,
+        "Elevation_m": 647.0,
+        "SiteName": "SAYRE, Oklahoma, USA",
+        "StartTime": "2026-05-13 21:19:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SC01",
+        "Latitude": 35.18467,
+        "Longitude": -97.820268,
+        "Elevation_m": 384.0,
+        "SiteName": "Tuttle, Grady County, OK, USA",
+        "StartTime": "2025-07-10 21:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SC02",
+        "Latitude": 34.797728,
+        "Longitude": -97.38899,
+        "Elevation_m": 324.0,
+        "SiteName": "Maysville, Oklahoma, USA",
+        "StartTime": "2025-08-21 17:45:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SC03",
+        "Latitude": 34.940115,
+        "Longitude": -97.848971,
+        "Elevation_m": 350.0,
+        "SiteName": "Tuttle, Grady County, OK, USA",
+        "StartTime": "2025-07-10 21:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SC07",
+        "Latitude": 34.933706,
+        "Longitude": -98.214031,
+        "Elevation_m": 437.0,
+        "SiteName": "SC07, Oklahoma, USA",
+        "StartTime": "2026-02-10 19:22:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SC08",
+        "Latitude": 34.687273,
+        "Longitude": -96.393077,
+        "Elevation_m": 200.0,
+        "SiteName": "SC08, Oklahoma, USA",
+        "StartTime": "2025-09-12 20:50:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SC11",
+        "Latitude": 35.182585,
+        "Longitude": -98.740646,
+        "Elevation_m": 423.0,
+        "SiteName": "SC11, Oklahoma, USA",
+        "StartTime": "2026-02-03 20:45:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SC19",
+        "Latitude": 36.220151,
+        "Longitude": -97.843067,
+        "Elevation_m": 344.0,
+        "SiteName": "SC19, Oklahoma, USA",
+        "StartTime": "2025-12-11 15:42:25",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SC20",
+        "Latitude": 35.4027,
+        "Longitude": -98.4409,
+        "Elevation_m": 490.0,
+        "SiteName": "Lookeba, Oklahoma, USA",
+        "StartTime": "2018-08-01 19:15:29",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SHAW",
+        "Latitude": 35.281133,
+        "Longitude": -96.842048,
+        "Elevation_m": 325.0,
+        "SiteName": "SHAW, Oklahoma, USA",
+        "StartTime": "2025-11-21 17:54:43",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SMNL",
+        "Latitude": 35.29415,
+        "Longitude": -96.56492,
+        "Elevation_m": 317.0,
+        "SiteName": "SMNL, Oklahoma, USA",
+        "StartTime": "2025-12-17 17:12:02",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SMO",
+        "Latitude": 35.523142,
+        "Longitude": -97.474662,
+        "Elevation_m": 357.0,
+        "SiteName": "Science Museum, Oklahoma, USA",
+        "StartTime": "2017-04-13 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SPEN",
+        "Latitude": 34.119171,
+        "Longitude": -95.317193,
+        "Elevation_m": 197.0,
+        "SiteName": "SPEN, Oklahoma, USA",
+        "StartTime": "2026-03-10 19:30:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SPLD",
+        "Latitude": 35.030903,
+        "Longitude": -96.430798,
+        "Elevation_m": 244.0,
+        "SiteName": "SPLD, Oklahoma, USA",
+        "StartTime": "2026-04-02 19:15:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SPRA",
+        "Latitude": 35.709986,
+        "Longitude": -97.606371,
+        "Elevation_m": 321.0,
+        "SiteName": "SPRA, Oklahoma, USA",
+        "StartTime": "2025-12-17 18:01:07",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "STIG",
+        "Latitude": 35.3406,
+        "Longitude": -95.1056,
+        "Elevation_m": 256.0,
+        "SiteName": "STIG, Oklahoma, USA",
+        "StartTime": "2026-03-03 21:32:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "STRB",
+        "Latitude": 35.863341,
+        "Longitude": -97.251549,
+        "Elevation_m": 335.0,
+        "SiteName": "STRB, Oklahoma, USA",
+        "StartTime": "2025-10-09 19:05:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "SWTZ",
+        "Latitude": 35.63373,
+        "Longitude": -98.155505,
+        "Elevation_m": 422.0,
+        "SiteName": "SWTZ, Oklahoma, USA",
+        "StartTime": "2026-06-24 19:42:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "TASC",
+        "Latitude": 35.518,
+        "Longitude": -96.750436,
+        "Elevation_m": 270.0,
+        "SiteName": "TASC, Oklahoma, USA",
+        "StartTime": "2025-12-16 19:42:38",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "TG11",
+        "Latitude": 35.269013,
+        "Longitude": -97.814551,
+        "Elevation_m": 412.0,
+        "SiteName": "TG11, Oklahoma, USA",
+        "StartTime": "2026-05-20 18:44:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "TISH",
+        "Latitude": 34.44016,
+        "Longitude": -96.5436,
+        "Elevation_m": 225.0,
+        "SiteName": "Milburn, Oklahoma, USA",
+        "StartTime": "2023-07-21 15:34:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "TUTL",
+        "Latitude": 35.317891,
+        "Longitude": -97.768146,
+        "Elevation_m": 376.0,
+        "SiteName": "TUTL, Oklahoma, USA",
+        "StartTime": "2026-07-01 18:30:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "U32A",
+        "Latitude": 36.3795,
+        "Longitude": -99.0014,
+        "Elevation_m": 525.0,
+        "SiteName": "Winter Ranch, Mooreland, Oklahoma, USA",
+        "StartTime": "2012-02-24 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "VIAN",
+        "Latitude": 35.620263,
+        "Longitude": -95.022125,
+        "Elevation_m": 264.0,
+        "SiteName": "VIAN, Oklahoma, USA",
+        "StartTime": "2026-04-10 15:12:42",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "W35A",
+        "Latitude": 35.15274,
+        "Longitude": -96.87453,
+        "Elevation_m": 322.0,
+        "SiteName": "Tecumseh, Oklahoma, USA",
+        "StartTime": "2012-02-15 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "WADE",
+        "Latitude": 34.148858,
+        "Longitude": -97.61923,
+        "Elevation_m": 286.0,
+        "SiteName": "WADE, Oklahoma, USA",
+        "StartTime": "2026-02-11 18:27:41",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "WELL",
+        "Latitude": 35.792833,
+        "Longitude": -97.062435,
+        "Elevation_m": 317.0,
+        "SiteName": "WELL, Oklahoma, USA",
+        "StartTime": "2025-11-04 19:37:15",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "WILZ",
+        "Latitude": 35.536111,
+        "Longitude": -96.737778,
+        "Elevation_m": 275.0,
+        "SiteName": "WILZ, Oklahoma, USA",
+        "StartTime": "2025-11-19 19:43:40",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "WINA",
+        "Latitude": 35.335403,
+        "Longitude": -97.921441,
+        "Elevation_m": 394.0,
+        "SiteName": "WINA, Oklahoma, USA",
+        "StartTime": "2025-06-23 17:35:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "WLB2",
+        "Latitude": 34.946194,
+        "Longitude": -95.387417,
+        "Elevation_m": 214.0,
+        "SiteName": "Wilburton, Oklahoma, USA",
+        "StartTime": "2024-06-24 18:18:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "X34A",
+        "Latitude": 34.60102,
+        "Longitude": -97.83256,
+        "Elevation_m": 364.0,
+        "SiteName": "Smith Ranch, Marlow, Oklahoma, USA",
+        "StartTime": "2011-10-13 00:00:00",
+        "EndTime": "Active"
+    },
+    {
+        "Network": "OK",
+        "Station": "X37A",
+        "Latitude": 34.5892,
+        "Longitude": -95.3713,
+        "Elevation_m": 207.0,
+        "SiteName": "Clayton, Oklahoma, USA",
+        "StartTime": "2012-02-24 00:00:00",
+        "EndTime": "Active"
+    }
+]

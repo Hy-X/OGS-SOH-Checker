@@ -1,0 +1,252 @@
+[1m[0;36m
+   ___   ____ ____    ____   ___  _   _    ____ _               _    
+  / _ \ / ___/ ___|  / ___| / _ \| | | |  / ___| |__   ___  ___| | __
+ | | | | |  _\___ \  \___ \| | | | |_| | | |   | '_ \ / _ \/ __| |/ /
+ | |_| | |_| |___) |  ___) | |_| |  _  | | |___| | | |  __/ (__|   < 
+  \___/ \____|____/  |____/ \___/|_| |_|  \____|_| |_|\___|\___|_|\_\ 
+  Oklahoma Seismic Network State of Health & Stream Visualization
+[0m
+[0;36mℹ️  [INFO][0m Using Python interpreter: [1m/home/hongyuxiao/miniconda3/envs/TL/bin/python[0m
+[0;36mℹ️  [INFO][0m Station inventory found: ogs_stations.csv (skipping harvest; use --refresh-meta to force)
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m STEP 2: Real-Time State of Health (SOH) Audit[0m
+[1m[0;34m======================================================================[0m
+[0;36mℹ️  [INFO][0m Polling active station life signals (last 60s window)...
+=========================================================
+ 📡 OKLAHOMA SEISMIC NETWORK REAL-TIME LIFE SIGNAL MONITOR
+ Time: 2026-10-03 19:00:03 UTC | Window: Last 60s
+=========================================================
+ 🟢 ONLINE  (<30s latency) : 136
+ 🟡 DELAYED (>30s latency) : 0
+ 🔴 OFFLINE (No recent data): 10
+ 📈 Availability Rate      : 93.2%
+ 💾 Log Appended           : monitor_log.csv
+=========================================================
+
+--- 🔴 OFFLINE STATIONS ---
+O2.KS08, O2.KS13, O2.SC04, O2.SC09, O2.UCTY, OK.DEMC, OK.ELIS, OK.OS13, OK.WINA, OK.X37A
+
+--- 🟡 DELAYED STATIONS ---
+None!
+
+--- 🟢 ONLINE STATIONS (Top 15 Samples) ---
+ O2.CVNG  : 0.0s latency
+ OK.DUST  : 0.0s latency
+ O2.ERNS  : 0.0s latency
+ O2.KS01  : 0.0s latency
+ OK.PW10  : 0.0s latency
+ OK.SAND  : 0.0s latency
+ O2.SC17  : 0.0s latency
+ OK.SC20  : 0.0s latency
+ OK.ALVA  : 0.0s latency
+ OK.AMES  : 0.0s latency
+ OK.ARC2  : 0.0s latency
+ OK.BAUM  : 0.0s latency
+ OK.BEBE  : 0.0s latency
+ OK.BIBY  : 0.0s latency
+ OK.BILL  : 0.0s latency
+ ... plus 121 more stations with low latency.
+[0;32m✅ [SUCCESS][0m Audit logged to monitor_log.csv and snapshot written to soh_status.json
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m STEP 3: Compiling Interactive SOH Panel Dashboard[0m
+[1m[0;34m======================================================================[0m
+[0;36mℹ️  [INFO][0m Building standalone HTML dashboard with ESRI basemaps...
+✅ Generated SOH Dashboard: soh_dashboard.html
+=========================================================
+ 📡 OKLAHOMA SEISMIC NETWORK STATE OF HEALTH (SOH) SUMMARY
+ Timestamp: 2026-10-03T19:00:03Z
+=========================================================
+ Total Monitored Stations : 146
+ 🟢 Online  (<=30s)       : 136
+ 🟡 Delayed (>30s)        : 0
+ 🔴 Offline (No data)     : 10
+ 📈 Network Availability  : 93.2%
+=========================================================
+[0;32m✅ [SUCCESS][0m Dashboard successfully compiled: [1msoh_dashboard.html[0m
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m STEP 4: Real-Time Waveform Stream Visualization[0m
+[1m[0;34m======================================================================[0m
+[0;36mℹ️  [INFO][0m Fetching live vertical traces for sample stations: OK.CHOK,OK.BLOK,OK.SMO...
+📡 Fetching waveforms for 3 stream request(s) over the last 60s...
+📊 Processing 3 waveform trace(s)...
+✅ Saved waveform visualization: waveform_stream.png
+[0;32m✅ [SUCCESS][0m Waveform plot generated: [1mwaveform_stream.png[0m
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m WORKFLOW COMPLETE[0m
+[1m[0;34m======================================================================[0m
+  📄 [1mSOH Dashboard HTML[0m : file:///home/hongyuxiao/Projects/SOH_Check/soh_dashboard.html
+  📈 [1mWaveform Stream PNG[0m: file:///home/hongyuxiao/Projects/SOH_Check/waveform_stream.png
+  📋 [1mTelemetry Audit Log[0m: file:///home/hongyuxiao/Projects/SOH_Check/monitor_log.csv
+
+[1m[0;36m
+   ___   ____ ____    ____   ___  _   _    ____ _               _    
+  / _ \ / ___/ ___|  / ___| / _ \| | | |  / ___| |__   ___  ___| | __
+ | | | | |  _\___ \  \___ \| | | | |_| | | |   | '_ \ / _ \/ __| |/ /
+ | |_| | |_| |___) |  ___) | |_| |  _  | | |___| | | |  __/ (__|   < 
+  \___/ \____|____/  |____/ \___/|_| |_|  \____|_| |_|\___|\___|_|\_\ 
+  Oklahoma Seismic Network State of Health & Stream Visualization
+[0m
+[0;36mℹ️  [INFO][0m Using Python interpreter: [1m/home/hongyuxiao/miniconda3/envs/TL/bin/python[0m
+[0;36mℹ️  [INFO][0m Station inventory found: ogs_stations.csv (skipping harvest; use --refresh-meta to force)
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m STEP 2: Real-Time State of Health (SOH) Audit[0m
+[1m[0;34m======================================================================[0m
+[0;36mℹ️  [INFO][0m Polling active station life signals (last 60s window)...
+=========================================================
+ 📡 OKLAHOMA SEISMIC NETWORK REAL-TIME LIFE SIGNAL MONITOR
+ Time: 2026-10-03 19:30:03 UTC | Window: Last 60s
+=========================================================
+ 🟢 ONLINE  (<30s latency) : 136
+ 🟡 DELAYED (>30s latency) : 0
+ 🔴 OFFLINE (No recent data): 10
+ 📈 Availability Rate      : 93.2%
+ 💾 Log Appended           : monitor_log.csv
+=========================================================
+
+--- 🔴 OFFLINE STATIONS ---
+O2.KS08, O2.KS13, O2.SC04, O2.SC09, O2.UCTY, OK.DEMC, OK.ELIS, OK.OS13, OK.WINA, OK.X37A
+
+--- 🟡 DELAYED STATIONS ---
+None!
+
+--- 🟢 ONLINE STATIONS (Top 15 Samples) ---
+ O2.CAL1  : 0.0s latency
+ OK.MAPL  : 0.0s latency
+ OK.OS02  : 0.0s latency
+ OK.OS09  : 0.0s latency
+ OK.OS10  : 0.0s latency
+ OK.OS12  : 0.0s latency
+ OK.OS14  : 0.0s latency
+ OK.SC08  : 0.0s latency
+ O2.CHAN  : 0.0s latency
+ OK.DUST  : 0.0s latency
+ O2.ERNS  : 0.0s latency
+ OK.PW10  : 0.0s latency
+ OK.SAND  : 0.0s latency
+ O2.SC17  : 0.0s latency
+ OK.SC20  : 0.0s latency
+ ... plus 121 more stations with low latency.
+[0;32m✅ [SUCCESS][0m Audit logged to monitor_log.csv and snapshot written to soh_status.json
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m STEP 3: Compiling Interactive SOH Panel Dashboard[0m
+[1m[0;34m======================================================================[0m
+[0;36mℹ️  [INFO][0m Building standalone HTML dashboard with ESRI basemaps...
+✅ Generated SOH Dashboard: soh_dashboard.html
+=========================================================
+ 📡 OKLAHOMA SEISMIC NETWORK STATE OF HEALTH (SOH) SUMMARY
+ Timestamp: 2026-10-03T19:30:03Z
+=========================================================
+ Total Monitored Stations : 146
+ 🟢 Online  (<=30s)       : 136
+ 🟡 Delayed (>30s)        : 0
+ 🔴 Offline (No data)     : 10
+ 📈 Network Availability  : 93.2%
+=========================================================
+[0;32m✅ [SUCCESS][0m Dashboard successfully compiled: [1msoh_dashboard.html[0m
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m STEP 4: Real-Time Waveform Stream Visualization[0m
+[1m[0;34m======================================================================[0m
+[0;36mℹ️  [INFO][0m Fetching live vertical traces for sample stations: OK.CHOK,OK.BLOK,OK.SMO...
+📡 Fetching waveforms for 3 stream request(s) over the last 60s...
+📊 Processing 3 waveform trace(s)...
+✅ Saved waveform visualization: waveform_stream.png
+[0;32m✅ [SUCCESS][0m Waveform plot generated: [1mwaveform_stream.png[0m
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m WORKFLOW COMPLETE[0m
+[1m[0;34m======================================================================[0m
+  📄 [1mSOH Dashboard HTML[0m : file:///home/hongyuxiao/Projects/SOH_Check/soh_dashboard.html
+  📈 [1mWaveform Stream PNG[0m: file:///home/hongyuxiao/Projects/SOH_Check/waveform_stream.png
+  📋 [1mTelemetry Audit Log[0m: file:///home/hongyuxiao/Projects/SOH_Check/monitor_log.csv
+
+[1m[0;36m
+   ___   ____ ____    ____   ___  _   _    ____ _               _    
+  / _ \ / ___/ ___|  / ___| / _ \| | | |  / ___| |__   ___  ___| | __
+ | | | | |  _\___ \  \___ \| | | | |_| | | |   | '_ \ / _ \/ __| |/ /
+ | |_| | |_| |___) |  ___) | |_| |  _  | | |___| | | |  __/ (__|   < 
+  \___/ \____|____/  |____/ \___/|_| |_|  \____|_| |_|\___|\___|_|\_\ 
+  Oklahoma Seismic Network State of Health & Stream Visualization
+[0m
+[0;36mℹ️  [INFO][0m Using Python interpreter: [1m/home/hongyuxiao/miniconda3/envs/TL/bin/python[0m
+[0;36mℹ️  [INFO][0m Station inventory found: ogs_stations.csv (skipping harvest; use --refresh-meta to force)
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m STEP 2: Real-Time State of Health (SOH) Audit[0m
+[1m[0;34m======================================================================[0m
+[0;36mℹ️  [INFO][0m Polling active station life signals (last 60s window)...
+=========================================================
+ 📡 OKLAHOMA SEISMIC NETWORK REAL-TIME LIFE SIGNAL MONITOR
+ Time: 2026-10-03 20:00:03 UTC | Window: Last 60s
+=========================================================
+ 🟢 ONLINE  (<30s latency) : 136
+ 🟡 DELAYED (>30s latency) : 0
+ 🔴 OFFLINE (No recent data): 10
+ 📈 Availability Rate      : 93.2%
+ 💾 Log Appended           : monitor_log.csv
+=========================================================
+
+--- 🔴 OFFLINE STATIONS ---
+O2.KS08, O2.KS13, O2.SC04, O2.SC09, O2.UCTY, OK.DEMC, OK.ELIS, OK.OS13, OK.WINA, OK.X37A
+
+--- 🟡 DELAYED STATIONS ---
+None!
+
+--- 🟢 ONLINE STATIONS (Top 15 Samples) ---
+ O2.FW07  : 0.0s latency
+ O2.SC12  : 0.0s latency
+ O2.SC14  : 0.0s latency
+ O2.SC15  : 0.0s latency
+ OK.BLOK  : 0.0s latency
+ OK.CHOK  : 0.0s latency
+ OK.RLO2  : 0.0s latency
+ OK.X34A  : 0.0s latency
+ O2.PW06  : 0.0s latency
+ O2.SC10  : 0.0s latency
+ OK.SMO   : 0.0s latency
+ O2.CAL1  : 0.0s latency
+ OK.BOBW  : 0.0s latency
+ OK.HEWI  : 0.0s latency
+ OK.MAPL  : 0.0s latency
+ ... plus 121 more stations with low latency.
+[0;32m✅ [SUCCESS][0m Audit logged to monitor_log.csv and snapshot written to soh_status.json
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m STEP 3: Compiling Interactive SOH Panel Dashboard[0m
+[1m[0;34m======================================================================[0m
+[0;36mℹ️  [INFO][0m Building standalone HTML dashboard with ESRI basemaps...
+✅ Generated SOH Dashboard: soh_dashboard.html
+=========================================================
+ 📡 OKLAHOMA SEISMIC NETWORK STATE OF HEALTH (SOH) SUMMARY
+ Timestamp: 2026-10-03T20:00:03Z
+=========================================================
+ Total Monitored Stations : 146
+ 🟢 Online  (<=30s)       : 136
+ 🟡 Delayed (>30s)        : 0
+ 🔴 Offline (No data)     : 10
+ 📈 Network Availability  : 93.2%
+=========================================================
+[0;32m✅ [SUCCESS][0m Dashboard successfully compiled: [1msoh_dashboard.html[0m
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m STEP 4: Real-Time Waveform Stream Visualization[0m
+[1m[0;34m======================================================================[0m
+[0;36mℹ️  [INFO][0m Fetching live vertical traces for sample stations: OK.CHOK,OK.BLOK,OK.SMO...
+📡 Fetching waveforms for 3 stream request(s) over the last 60s...
+📊 Processing 3 waveform trace(s)...
+✅ Saved waveform visualization: waveform_stream.png
+[0;32m✅ [SUCCESS][0m Waveform plot generated: [1mwaveform_stream.png[0m
+
+[1m[0;34m======================================================================[0m
+[1m[0;34m WORKFLOW COMPLETE[0m
+[1m[0;34m======================================================================[0m
+  📄 [1mSOH Dashboard HTML[0m : file:///home/hongyuxiao/Projects/SOH_Check/soh_dashboard.html
+  📈 [1mWaveform Stream PNG[0m: file:///home/hongyuxiao/Projects/SOH_Check/waveform_stream.png
+  📋 [1mTelemetry Audit Log[0m: file:///home/hongyuxiao/Projects/SOH_Check/monitor_log.csv
+

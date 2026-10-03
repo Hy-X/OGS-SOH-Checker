@@ -1,0 +1,1638 @@
+{
+  "timestamp": "2026-10-03T20:00:03Z",
+  "window_seconds": 60,
+  "counts": {
+    "total": 146,
+    "online": 136,
+    "delayed": 0,
+    "offline": 10
+  },
+  "availability_pct": 93.2,
+  "online": [
+    {
+      "network": "O2",
+      "station": "FW07",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "SC12",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "SC14",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "SC15",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "BLOK",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "CHOK",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "RLO2",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "X34A",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "PW06",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "SC10",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "SMO",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "CAL1",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BOBW",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HEWI",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MAPL",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS01",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS02",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS04",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS05",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS09",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS10",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS12",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS14",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS15",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC08",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "CRES",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "CVNG",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DUST",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "KS01",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "PW05",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW10",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "PW19",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SAND",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC20",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "YUKO",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ALVA",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "AMES",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ARC2",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BAUM",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BEBE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BIBY",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BILL",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BLAN",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BLUF",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BOZZ",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BREW",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BUCK",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CAVE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CHAB",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CHIC",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "COLE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CROK",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CSTR",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DAVD",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DEOK",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DOVR",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DRIP",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ELI2",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ELKC",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FISK",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FNO",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FREE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW01",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW03",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW04",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW05",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW06",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW09",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW10",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "GC02",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "GORE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "GRAY",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HARD",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HEAL",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HOLD",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "KENA",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "KIRK",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "LAZY",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "LEXS",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MADI",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MILO",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MRSH",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MUST",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "NETT",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "NIEM",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "NOKA",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OKAR",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OWEN",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PERY",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW01",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW13",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW17",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW18",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW21",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW30",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "QUIN",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "QUOK",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "RICK",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ROFF",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ROSS",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ROYM",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SAYRE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC01",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC02",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC03",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC07",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC11",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC19",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SHAW",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SMNL",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SPEN",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SPLD",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SPRA",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "STIG",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "STRB",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SWTZ",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "TASC",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "TG11",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "TISH",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "TUTL",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "U32A",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "VIAN",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "W35A",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "WADE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "WELL",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "WILZ",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "WLB2",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "CALT",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "ERNS",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "SC16",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "SC17",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HTCH",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "LOOK",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "CHAN",
+      "latency_s": 0.08
+    },
+    {
+      "network": "O2",
+      "station": "TUTT",
+      "latency_s": 0.2
+    },
+    {
+      "network": "O2",
+      "station": "POCA",
+      "latency_s": 0.5
+    }
+  ],
+  "delayed": [],
+  "offline": [
+    {
+      "network": "O2",
+      "station": "KS08"
+    },
+    {
+      "network": "O2",
+      "station": "KS13"
+    },
+    {
+      "network": "O2",
+      "station": "SC04"
+    },
+    {
+      "network": "O2",
+      "station": "SC09"
+    },
+    {
+      "network": "O2",
+      "station": "UCTY"
+    },
+    {
+      "network": "OK",
+      "station": "DEMC"
+    },
+    {
+      "network": "OK",
+      "station": "ELIS"
+    },
+    {
+      "network": "OK",
+      "station": "OS13"
+    },
+    {
+      "network": "OK",
+      "station": "WINA"
+    },
+    {
+      "network": "OK",
+      "station": "X37A"
+    }
+  ],
+  "inventory": [
+    {
+      "network": "O2",
+      "station": "CAL1",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "CALT",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "CHAN",
+      "status": "ONLINE",
+      "latency_s": 0.08
+    },
+    {
+      "network": "O2",
+      "station": "CRES",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "CVNG",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "DUST",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "ERNS",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "FW07",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "KS01",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "KS08",
+      "status": "OFFLINE",
+      "latency_s": null
+    },
+    {
+      "network": "O2",
+      "station": "KS13",
+      "status": "OFFLINE",
+      "latency_s": null
+    },
+    {
+      "network": "O2",
+      "station": "POCA",
+      "status": "ONLINE",
+      "latency_s": 0.5
+    },
+    {
+      "network": "O2",
+      "station": "PW05",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "PW06",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "PW10",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "PW19",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "SAND",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "SC04",
+      "status": "OFFLINE",
+      "latency_s": null
+    },
+    {
+      "network": "O2",
+      "station": "SC09",
+      "status": "OFFLINE",
+      "latency_s": null
+    },
+    {
+      "network": "O2",
+      "station": "SC10",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "SC12",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "SC14",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "SC15",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "O2",
+      "station": "SC16",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "SC17",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "SC20",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "O2",
+      "station": "TUTT",
+      "status": "ONLINE",
+      "latency_s": 0.2
+    },
+    {
+      "network": "O2",
+      "station": "UCTY",
+      "status": "OFFLINE",
+      "latency_s": null
+    },
+    {
+      "network": "O2",
+      "station": "YUKO",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ALVA",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "AMES",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ARC2",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BAUM",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BEBE",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BIBY",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BILL",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BLAN",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BLOK",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "BLUF",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BOBW",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BOZZ",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BREW",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "BUCK",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CAVE",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CHAB",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CHIC",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CHOK",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "COLE",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CROK",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "CSTR",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DAVD",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DEMC",
+      "status": "OFFLINE",
+      "latency_s": null
+    },
+    {
+      "network": "OK",
+      "station": "DEOK",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DOVR",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DRIP",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "DUST",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ELI2",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ELIS",
+      "status": "OFFLINE",
+      "latency_s": null
+    },
+    {
+      "network": "OK",
+      "station": "ELKC",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FISK",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FNO",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FREE",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW01",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW03",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW04",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW05",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW06",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW09",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "FW10",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "GC02",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "GORE",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "GRAY",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HARD",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HEAL",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HEWI",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HOLD",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "HTCH",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "KENA",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "KIRK",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "LAZY",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "LEXS",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "LOOK",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MADI",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MAPL",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MILO",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MRSH",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "MUST",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "NETT",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "NIEM",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "NOKA",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OKAR",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS01",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS02",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS04",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS05",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS09",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS10",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS12",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS13",
+      "status": "OFFLINE",
+      "latency_s": null
+    },
+    {
+      "network": "OK",
+      "station": "OS14",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OS15",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "OWEN",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PERY",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW01",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW10",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW13",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW17",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW18",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW21",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "PW30",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "QUIN",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "QUOK",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "RICK",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "RLO2",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "ROFF",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ROSS",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "ROYM",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SAND",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SAYRE",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC01",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC02",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC03",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC07",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC08",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC11",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC19",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SC20",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SHAW",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SMNL",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SMO",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "SPEN",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SPLD",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SPRA",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "STIG",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "STRB",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "SWTZ",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "TASC",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "TG11",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "TISH",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "TUTL",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "U32A",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "VIAN",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "W35A",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "WADE",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "WELL",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "WILZ",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "WINA",
+      "status": "OFFLINE",
+      "latency_s": null
+    },
+    {
+      "network": "OK",
+      "station": "WLB2",
+      "status": "ONLINE",
+      "latency_s": 0.01
+    },
+    {
+      "network": "OK",
+      "station": "X34A",
+      "status": "ONLINE",
+      "latency_s": 0.0
+    },
+    {
+      "network": "OK",
+      "station": "X37A",
+      "status": "OFFLINE",
+      "latency_s": null
+    }
+  ]
+}
