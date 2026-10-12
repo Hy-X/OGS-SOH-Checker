@@ -47,8 +47,8 @@ find_python() {
         echo "python3"
     elif [ -n "$CONDA_PREFIX" ] && [ -x "$CONDA_PREFIX/bin/python" ] && "$CONDA_PREFIX/bin/python" -c "import obspy" &>/dev/null; then
         echo "$CONDA_PREFIX/bin/python"
-    elif [ -x "/home/hongyuxiao/miniconda3/envs/TL/bin/python" ] && /home/hongyuxiao/miniconda3/envs/TL/bin/python -c "import obspy" &>/dev/null; then
-        echo "/home/hongyuxiao/miniconda3/envs/TL/bin/python"
+    elif [ -x "/home/USERNAME/miniconda3/envs/TL/bin/python" ] && /home/USERNAME/miniconda3/envs/TL/bin/python -c "import obspy" &>/dev/null; then
+        echo "/home/USERNAME/miniconda3/envs/TL/bin/python"
     else
         echo "python3"
     fi
@@ -71,17 +71,27 @@ verify_environment() {
 STATION_CSV="ogs_stations.csv"
 LOG_CSV="monitor_log.csv"
 HTML_OUT="soh_dashboard.html"
+REPORT_OUT="soh_summary_report.md"
 IMAGE_OUT="waveform_stream.png"
 WINDOW_SECONDS=60
 SERVE_PORT=8050
 MONITOR_INTERVAL=30
 SAMPLE_STATIONS="OK.CHOK,OK.BLOK,OK.SMO"
+SLACK_WEBHOOK_FILE="slack_webhook"
+TEAMS_WEBHOOK_FILE="teams_webhook"
+ALERT_RECIPIENT="${ALERT_EMAIL:-USERNAME@gmail.com}"
 
 # Flags
 DO_HARVEST=false
 DO_AUDIT=true
 DO_DASHBOARD=true
 DO_VISUALIZE=true
+DO_REPORT=true
+DO_ALERT=true
+DO_ALERT_WEATHER=true
+DO_ALERT_EMAIL=true
+DO_ALERT_SLACK=true
+DO_ALERT_TEAMS=true
 DO_SERVE=false
 DO_STREAM=false
 DO_LOOP=false
@@ -108,14 +118,20 @@ OPTIONS:
   --audit-only             Run real-time SOH health audit only
   --dashboard-only         Generate HTML SOH dashboard only
   --visualize-only         Generate waveform stream plot only
+  --report-only            Generate SOH situation analysis and summary report only
   --serve [PORT]           Launch local web server for the dashboard (default port: 8050)
   --stream                 Start real-time SeedLink streaming packet monitor
   --monitor [INTERVAL]     Run continuous telemetry monitoring loop (interval in seconds, default: 30)
   --stations [LIST]        Comma-separated station list for waveform visualizer (default: $SAMPLE_STATIONS)
   --window [SECONDS]       FDSN audit lookback window in seconds (default: 60)
+  --no-alert               Disable all station drop alerts
+  --no-weather             Disable severe weather hazard alerts (NWS)
+  --no-email               Disable email alerts (s-nail)
+  --no-slack               Disable Slack webhook alerts
+  --no-teams               Disable Microsoft Teams webhook alerts
 
 EXAMPLES:
-  # 1. Run complete end-to-end pipeline (audit -> dashboard -> waveform plot)
+  # 1. Run complete end-to-end pipeline (audit -> dashboard -> waveform plot -> report)
   ./$(basename "$0")
 
   # 2. Run complete pipeline and immediately serve the web dashboard
@@ -124,10 +140,13 @@ EXAMPLES:
   # 3. Refresh station inventory from EarthScope before running audit
   ./$(basename "$0") --refresh-meta
 
-  # 4. Run continuous monitoring loop every 30 seconds
+  # 4. Generate station situation summary report only
+  ./$(basename "$0") --report-only
+
+  # 5. Run continuous monitoring loop every 30 seconds
   ./$(basename "$0") --monitor 30
 
-  # 5. Visualize custom stations
+  # 6. Visualize custom stations
   ./$(basename "$0") --visualize-only --stations "OK.U32A,OK.CCO2,O2.CAL1"
 EOF
 }
@@ -146,6 +165,7 @@ while [[ "$#" -gt 0 ]]; do
             DO_AUDIT=true
             DO_DASHBOARD=true
             DO_VISUALIZE=true
+            DO_REPORT=true
             ;;
         --refresh-meta)
             DO_HARVEST=true
@@ -154,16 +174,25 @@ while [[ "$#" -gt 0 ]]; do
             DO_AUDIT=true
             DO_DASHBOARD=false
             DO_VISUALIZE=false
+            DO_REPORT=false
             ;;
         --dashboard-only)
             DO_AUDIT=false
             DO_DASHBOARD=true
             DO_VISUALIZE=false
+            DO_REPORT=false
             ;;
         --visualize-only)
             DO_AUDIT=false
             DO_DASHBOARD=false
             DO_VISUALIZE=true
+            DO_REPORT=false
+            ;;
+        --report-only)
+            DO_AUDIT=false
+            DO_DASHBOARD=false
+            DO_VISUALIZE=false
+            DO_REPORT=true
             ;;
         --serve)
             DO_SERVE=true
@@ -194,9 +223,28 @@ while [[ "$#" -gt 0 ]]; do
                 shift
             fi
             ;;
+        --report)
+            DO_REPORT=true
+            ;;
+        --no-alert)
+            DO_ALERT=false
+            ;;
+        --no-weather)
+            DO_ALERT_WEATHER=false
+            ;;
+        --no-email)
+            DO_ALERT_EMAIL=false
+            ;;
+        --no-slack)
+            DO_ALERT_SLACK=false
+            ;;
+        --no-teams)
+            DO_ALERT_TEAMS=false
+            ;;
         --ci|--cron)
             IS_CI=true
             DO_SERVE=false
+            DO_REPORT=false
             ;;
         *)
             log_error "Unknown option: $1"
@@ -279,6 +327,45 @@ if [ "$DO_AUDIT" = true ]; then
 fi
 
 # ------------------------------------------------------------------------------
+# STEP 2b: Severe Weather Hazard Ingestion & Alerting (NWS Correlator)
+# ------------------------------------------------------------------------------
+if [ "$DO_ALERT" = true ] && [ "$DO_ALERT_WEATHER" = true ]; then
+    log_header "STEP 2b: Severe Weather Hazard Alerting (NWS Correlator)"
+    log_info "Evaluating active NWS severe weather alerts impacting Oklahoma seismic network..."
+    "$PYTHON_BIN" weather_notifier.py || log_warn "Weather alert notifier returned non-zero exit code."
+fi
+
+# ------------------------------------------------------------------------------
+# STEP 2c: Immediate Drop Alerting (Multi-Channel Notifications)
+# ------------------------------------------------------------------------------
+if [ "$DO_ALERT" = true ]; then
+    # 1. Email Alerting via s-nail
+    if [ "$DO_ALERT_EMAIL" = true ] && [ -n "$ALERT_RECIPIENT" ]; then
+        log_header "STEP 2c: Station Drop Telemetry Alerting (s-nail)"
+        log_info "Evaluating station drop state transitions for: $ALERT_RECIPIENT..."
+        "$PYTHON_BIN" alert_notifier.py --recipient "$ALERT_RECIPIENT" || log_warn "Email alert notifier returned non-zero exit code."
+    fi
+
+    # 2. Slack Webhook Alerting
+    if [ "$DO_ALERT_SLACK" = true ]; then
+        if [ -n "$SLACK_WEBHOOK_URL" ] || [ -f "$SLACK_WEBHOOK_FILE" ]; then
+            log_header "STEP 2d: Station Drop Telemetry Alerting (Slack Webhook)"
+            log_info "Evaluating station drop state transitions for Slack channel..."
+            "$PYTHON_BIN" alert_notifier_slack.py || log_warn "Slack alert notifier returned non-zero exit code."
+        fi
+    fi
+
+    # 3. Microsoft Teams Webhook Alerting
+    if [ "$DO_ALERT_TEAMS" = true ]; then
+        if [ -n "$TEAMS_WEBHOOK_URL" ] || [ -f "$TEAMS_WEBHOOK_FILE" ]; then
+            log_header "STEP 2e: Station Drop Telemetry Alerting (Microsoft Teams Webhook)"
+            log_info "Evaluating station drop state transitions for Microsoft Teams..."
+            "$PYTHON_BIN" alert_notifier_teams.py || log_warn "Teams alert notifier returned non-zero exit code."
+        fi
+    fi
+fi
+
+# ------------------------------------------------------------------------------
 # STEP 3: SOH Panel Dashboard Generation
 # ------------------------------------------------------------------------------
 if [ "$DO_DASHBOARD" = true ]; then
@@ -302,14 +389,27 @@ if [ "$DO_VISUALIZE" = true ]; then
 fi
 
 # ------------------------------------------------------------------------------
+# STEP 5: Station Health Analysis & Summary Report
+# ------------------------------------------------------------------------------
+if [ "$DO_REPORT" = true ]; then
+    log_header "STEP 5: Station Health Analysis & Summary Report"
+    log_info "Analyzing historical telemetry and compiling summary report..."
+    "$PYTHON_BIN" station_analyzer.py --monitor-log "$LOG_CSV" --meta "$STATION_CSV" --output "$REPORT_OUT"
+    log_success "Summary report updated: ${BOLD}$REPORT_OUT${RESET}"
+fi
+
+# ------------------------------------------------------------------------------
 # Summary & Next Actions
 # ------------------------------------------------------------------------------
 log_header "WORKFLOW COMPLETE"
-echo -e "  📄 ${BOLD}SOH Dashboard HTML${RESET} : file://$SCRIPT_DIR/$HTML_OUT"
-if [ -f "$IMAGE_OUT" ]; then
-    echo -e "  📈 ${BOLD}Waveform Stream PNG${RESET}: file://$SCRIPT_DIR/$IMAGE_OUT"
+echo -e "  📄 ${BOLD}SOH Dashboard HTML${RESET}   : file://$SCRIPT_DIR/$HTML_OUT"
+if [ -f "$REPORT_OUT" ]; then
+    echo -e "  📝 ${BOLD}SOH Summary Report MD${RESET}: file://$SCRIPT_DIR/$REPORT_OUT"
 fi
-echo -e "  📋 ${BOLD}Telemetry Audit Log${RESET}: file://$SCRIPT_DIR/$LOG_CSV"
+if [ -f "$IMAGE_OUT" ]; then
+    echo -e "  📈 ${BOLD}Waveform Stream PNG${RESET}  : file://$SCRIPT_DIR/$IMAGE_OUT"
+fi
+echo -e "  📋 ${BOLD}Telemetry Audit Log${RESET}  : file://$SCRIPT_DIR/$LOG_CSV"
 echo ""
 
 # Launch web server if requested
